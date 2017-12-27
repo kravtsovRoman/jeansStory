@@ -1,0 +1,140 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+header{
+	background: #333;
+	color: #fff;
+	transition: all 0.5s;
+}
+.header-mobile{
+	display: none;
+}
+
+.menu-left a, header .phone {
+	padding: 35px 5px;
+	margin: auto;
+	color: #fff;
+	float: left;
+	text-align: center;
+	font-family: Politica, Helvetica;
+	font-size: 23px;
+	text-decoration: none;
+}
+.menu-left a{
+	float: right;
+}
+
+header a:hover{
+	text-decoration: none;
+	color: #178AE5;
+}
+
+.logo img{
+	width: 175px;
+	padding: 10px;
+}
+
+header .phone{
+	font-size: 32px;
+	padding: 30px 30px 30px 0; 
+}
+
+.search {
+  width: 175px;
+  padding-top: 35px;
+  position: relative;
+  border-bottom: 1px solid white;
+  float: left;
+}
+
+.search::after {
+  content: attr(data-text);
+  font-size: 0.7rem;
+  line-height: 0;
+  height: 50px;
+  max-width: 100%;
+  font-family: Politica, Roboto, Arial, sans-serif;
+  border-bottom: 3px solid #fff;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  overflow: hidden;
+  user-select: none;
+  color: transparent;
+}
+
+.search input {
+  color: #ddd;
+  border: none;
+  border-radius: 0;
+  outline: none;
+  font-size: 1.3rem;
+  font-family: Politica, Roboto, Arial, sans-serif;
+  border-bottom: 3px solid #333333;
+  background-color: transparent;
+}
+
+.search input::placeholder {
+	font-size: 0.8em;
+  font-family: Politica, Roboto, Arial, sans-serif;
+}
+
+.cart {
+	padding: 30px 0 ;
+	float: left;
+	margin-left: 25px;
+}
+.fa-shopping-cart{
+	font-size: 40px;
+	color: #fff;
+}
+
+.fa-shopping-cart:hover{
+	color: #178AE5;
+}
+
+
+
+.menu-up{
+	width: 100%;
+	display: flex;
+}
+.logo-mobile{
+	float: left;
+}
+.logo-mobile img {
+	width: 50px;
+	padding: 8px 0;
+}
+.header-mobile .phone {
+	margin: auto auto;
+	padding: 3px;
+	font-size: 45px;
+	overflow: hidden;
+}
+
+.burger{
+	width: 50px;
+	padding: 20px 0;
+
+}
+.burger .fa-bars{
+	font-size: 2em;
+}
+
+.burger_checkbox{
+	display: none;
+}
+.burger_checkbox:checked & ~ .menu-left {
+	background: #aaa;
+
+}
+.burger_checkbox:checked + #menu {
+	background: #aaa;
+
+}
+
+
