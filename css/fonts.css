@@ -12,7 +12,6 @@
 	font-family: "Politica";
 	src: url("../fonts/Politica/Politica Bold.otf");
 	src: url("../fonts/Politica/Politica.eot?#iefix") format("embedded-opentype"),
-			 url("../fonts/Politica/Politica.woff") format("woff"),
 			 url("../fonts/Politica/Politica.ttf") format("truetype");
 	font-style: normal;
 	font-weight: normal;

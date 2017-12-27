@@ -12,7 +12,7 @@ header{
 	display: none;
 }
 
-.menu-left a, header .phone {
+.menu-left a, header .phone, .menu-left-mobile a{
 	padding: 35px 5px;
 	margin: auto;
 	color: #fff;
@@ -22,7 +22,7 @@ header{
 	font-size: 23px;
 	text-decoration: none;
 }
-.menu-left a{
+.menu-left a, .menu-left-mobile a{
 	float: right;
 }
 
@@ -101,6 +101,7 @@ header .phone{
 .menu-up{
 	width: 100%;
 	display: flex;
+	position: relative;
 }
 .logo-mobile{
 	float: left;
@@ -128,13 +129,42 @@ header .phone{
 .burger_checkbox{
 	display: none;
 }
-.burger_checkbox:checked & ~ .menu-left {
-	background: #aaa;
 
-}
-.burger_checkbox:checked + #menu {
-	background: #aaa;
+	.menu-left-mobile a{
+		width: 100%;
+		padding: 5px;
+		text-align: center;
+		border-top: 1px solid #178AE5;
+		font-size: 20px;
+		transition: all 1s ;
+	}
 
+	.menu-left-mobile a:last-child:hover{
+		border-bottom: 1px solid #178AE5;
+	}
+	.menu-left-mobile a:hover{
+		color: #178AE5;
+		border-left: 1px solid #178AE5; 
+		border-right: 1px solid #178AE5; 
+	}
+
+	.menu-left-mobile{
+		display: none;
+	}
+
+/*.open{
+	display: block;
+}*/
+
+/*
+.burger_checkbox:checked ~.menu-left-mobile{
+	display: block;
 }
+*/
+
+
+
+
+
 
 
