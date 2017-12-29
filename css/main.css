@@ -3,6 +3,8 @@
 	margin: 0;
 }
 
+/*HEADER*/
+
 header{
 	background: #333;
 	color: #fff;
@@ -152,17 +154,24 @@ header .phone{
 
 	}
 
-/*.open{
-	display: block;
-}*/
+/*MAIN*/
 
-/*
-.burger_checkbox:checked ~.menu-left-mobile{
-	display: block;
+main{
 }
-*/
-
-
+.wrapper{
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	
+}
+.wrapper .category{
+	max-width: 45%;
+	height: 200px;
+	margin: 25px 0;
+	background: #eee;
+	overflow: hidden;
+}
 
 
 
