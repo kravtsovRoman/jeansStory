@@ -6,7 +6,6 @@
 header{
 	background: #333;
 	color: #fff;
-	transition: all 0.5s;
 }
 .header-mobile{
 	display: none;
@@ -150,6 +149,7 @@ header .phone{
 
 	.menu-left-mobile{
 		display: none;
+
 	}
 
 /*.open{
