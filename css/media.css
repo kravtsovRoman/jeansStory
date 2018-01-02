@@ -3,11 +3,10 @@
 	/* Large Devices, Wide Screens */
 	@media only screen and (max-width : 1200px) {
 		.menu-left a, header .phone{
-			font-size: 18px;
+			font-size: 17px;
 		}
 		.logo img{
 			width: 150px;
-			padding: 12px;
 		}
 		.search{
 			width: 150px;
@@ -32,8 +31,10 @@
 		}
 
 		.logo img{
-			width: 125px;
-			padding: 5px;
+			width: 140px;
+			padding-top: 20px;
+			padding-left: 0;
+
 		}
 		.search{
 			width: 115px;
@@ -76,6 +77,9 @@
 		.category .category-time{
 			margin-left: 10px;
 		}
+		.box{
+			width: 80%;
+		}
 	}
 
 	@media only screen and (max-width : 576px) {
@@ -92,6 +96,9 @@
 			width: 100%;
 			margin: 20px 0px 10px 0;
 			text-align: center;
+		}
+		.footer-info{
+			display: none;
 		}
 	}
 
