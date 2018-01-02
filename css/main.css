@@ -1,4 +1,4 @@
-*{
+*, p{
 	padding: 0;
 	margin: 0;
 }
@@ -157,7 +157,7 @@ header .phone{
 /*MAIN*/
 
 main{
-}
+}   
 .wrapper{
 	margin: 0 auto;
 	display: flex;
@@ -166,9 +166,108 @@ main{
 	
 }
 .wrapper .category{
+	width: 46%;
 	margin: 25px ;
 	border: 1px solid #eee;
-	overflow: hidden;
+	box-shadow: 2px 2px 3px #aaa;
+	box-sizing: border-box;
+	transition: 0.3s all;
+}
+.wrapper .category:hover{
+	box-shadow: 5px 5px 10px #aaa;
+}
+.wrapper .category:hover .category-description h3,
+.wrapper .category:hover .category-description p,
+.wrapper .category:hover .category-time{
+	margin-left: 5px;
+}
+
+.category a{
+	text-decoration: none;
+}
+
+.category .img-category{
+	width: 100%;
+	height: 265px;
+}
+
+.category .mens-jeans{
+	background:  url(../img/category/mens-jeans.jpg) 0 -45px no-repeat;
+}
+.category .womens-jeans{
+	background:  url(../img/category/womens-jeans.jpg) 0 -16px no-repeat;
+}
+.category .pullovers{
+	background: url(../img/category/pullovers.jpg) 0 -6px no-repeat;
+}
+.category .t-shirts{
+	background: url(../img/category/t-shirts.jpg) 0 -10px no-repeat;
+}
+.category .batnik{
+	background: url(../img/category/batnik.jpeg) 0 0 no-repeat;
+}
+.category .jackets{
+	background: url(../img/category/jackets.jpg) 0 -6px no-repeat;
+}
+.category .overalls{
+	background: url(../img/category/overalls.jpg)0 0 no-repeat;
+}
+.category .vests{
+	background: url(../img/category/vests.jpg) 0 0 no-repeat;
+}
+.category .shorts{
+	background: url(../img/category/shorts.jpg) 0 0 no-repeat;
+}
+.category .shorts{
+	background: url(../img/category/shorts.jpg) 0 -6px no-repeat;
+}
+.category .belts{
+	background: url(../img/category/belts.jpg) 0 -57px no-repeat;
+}
+
+.category .category-description{
+	width: 75%;
+	margin: 15px -10px 20px 25px;
+	float: right;
+	
+}
+
+.category .category-description h3{
+	font-family: Politica, Roboto, Arial, sans-serif;
+	font-weight: bold;	
+	color: #178AE5;
+	font-size: 2em;
+	transition: 1s all;
+}
+.category .category-description p{
+	color: #555;
+	font-family:    RobotoRegular, Arial, sans-serif;
+	transition: 1s all;
+}
+
+
+.category .category-time{
+	width: 20%;
+	padding: 60px 0 0 0;
+	text-align: center;
+	color: #555;
+	position: relative;
+	transition: 1s all;
+}
+
+.category .category-time .quantity{
+	background: #fff;
+	padding: 0 20px 7px 20px;
+	border: 1px solid #eee;
+	position: absolute;
+	top: -50px;
+	left: 20px;
+	box-shadow: 3px 3px 10px #000;
+}
+
+.category .category-time .quantity p{
+	font-size: 2.5em;
+
 }
 
 
