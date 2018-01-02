@@ -166,12 +166,14 @@ main{
 	
 }
 .wrapper .category{
-	width: 46%;
+	width: 45%;
 	margin: 25px ;
-	border: 1px solid #eee;
+	border-left: 1px solid #eee;
+	border-top: 1px solid #eee;
 	box-shadow: 2px 2px 3px #aaa;
 	box-sizing: border-box;
 	transition: 0.3s all;
+	overflow: hidden;
 }
 .wrapper .category:hover{
 	box-shadow: 5px 5px 10px #aaa;
