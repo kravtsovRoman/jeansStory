@@ -273,6 +273,53 @@ main{
 }
 
 
+.sale-new{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.box{
+	width: 45%;
+	height: 160px;
+	margin: 20px;
+	overflow: hidden;
+	box-shadow: 2px 2px 3px #aaa;
+	transition: 0.5s all;
+}
+.box:hover{
+	box-shadow: 5px 5px 10px #aaa;
+}
+.sale{
+	background: url(../img/sale.png) no-repeat;
+}
+.new{
+	background: url(../img/new.png) no-repeat;
+}
+
+.all-catalog{
+	width: 93%;
+	border: 2px solid #178AE5;
+	border-radius: 3px;
+	margin: 10px;
+	transition: .5s all;
+}
+.all-catalog h5{
+	margin: 0;
+	padding: 15px 0;
+	text-align: center;
+	color: #178AE5;
+	font-family: Politica, sans-serif;
+	font-size: 2em;
+}
+.all-catalog:hover{
+	background: #178AE5;
+	cursor: pointer;
+}
+.all-catalog:hover h5{
+	color: #fff;
+}
+
 
 
 
