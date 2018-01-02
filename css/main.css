@@ -320,6 +320,72 @@ main{
 	color: #fff;
 }
 
+footer{
+	width: 100%;
+	padding: 20px;
+	background: #333;
+	color: #fff;
+	font-family: Politica, sans-serif;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.footer-logo img{
+	width: 80px;
+}
+footer h4{
+	font-size: 1.5em;
+}
+footer li{
+	list-style-type: none;
+}
+footer a{
+	color: #fff;
+	transition: .5s all;
+}
+footer a:hover{
+	text-decoration: none;
+	color: #178AE5;
+}
+footer ul{
+	margin-bottom: 0;
+}
+.footer-info li{
+	font-size: 1.7em;
+}
 
+.footer-contact {
+	font-family: Politica;
+	font-size: 1.3em;
+}
+
+.footer-number{
+	font-size: 2.7em;
+	font-family: Politica;
+}
+.footer-contact .fa{
+	display: block;
+	width: 25px;
+	height: 25px;
+	float: left;
+	margin-top: 5px;
+	margin-right: 15px;
+	text-align: center;
+}
+.footer-time{
+	padding-top: 20px;
+	font-size: 1.3em;
+}
+.footer-time h3{
+	font-size: 2.5em;
+	text-align: center;
+}
+.footer-time li{
+	float: left;
+	margin-left: 7px;
+	padding: 3px 10px;
+	border: 1px solid #eee;
+	border-radius: 7px;
+}
 
 
