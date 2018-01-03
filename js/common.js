@@ -1,5 +1,5 @@
 
-//Berger menu 
+//Burger menu 
 $(document).ready(function(){
 	$('.fa-bars').on('click', function(event){
 			$('.menu-left-mobile').slideToggle();
@@ -7,7 +7,7 @@ $(document).ready(function(){
 		});
 });
 
-
+//Header slide
 $(window).scroll(function(){
     if ($(window).scrollTop() > 100) {
         $('.menu-left a').addClass('menu-scrol');

@@ -4,15 +4,12 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Story Jeans</title>
-	<link rel="icon" href="img/favicon.ico">
+	<link rel="icon" href="img/favicon.ico"> <!-- Иконка сайта -->
 	<link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css"> <!-- font-awesome -->
 	<link rel="stylesheet" href="css/fonts.css"> <!-- fonts -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous"> <!-- bootstrap -->
 	<link rel="stylesheet" href="css/main.css"> <!-- main -->
 	<link rel="stylesheet" href="css/media.css"> <!-- media -->
-
-
-
 </head>
 <body>
 	<header>
@@ -251,6 +248,11 @@
 		</div>
 	</main>
 	<footer>
+		<div class="position">
+			<div class="scrollTop">
+				<i class="fa fa-angle-double-up" aria-hidden="true"></i>
+			</div>
+		</div>
 		
 		<div class="footer-info">
 			<ul>	

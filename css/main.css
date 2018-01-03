@@ -6,6 +6,7 @@ body{
 	position: relative;
 	margin-top: 100px;
 }
+
 /*HEADER*/
 
 header{
@@ -21,7 +22,6 @@ header{
 .header-mobile{
 	display: none;
 }
-
 .menu-left a, header .phone, .menu-left-mobile a{
 	padding: 35px 5px;
 	margin: auto;
@@ -42,7 +42,6 @@ header{
 .menu-left a, .menu-left-mobile a{
 	float: right;
 }
-
 header a:hover{
 	text-decoration: none;
 	color: #178AE5;
@@ -52,51 +51,46 @@ header a:hover{
 	padding: 35px 10px 10px 10px;
 	transition: 1s all;
 }
-
 header .phone{
 	font-size: 32px;
 	padding: 30px 30px 30px 0; 
 }
-
 .search {
-  width: 175px;
-  padding-top: 35px;
-  position: relative;
-  border-bottom: 1px solid white;
-  float: left;
-  transition: 1s all;
+	width: 175px;
+	padding-top: 35px;
+	position: relative;
+	border-bottom: 1px solid white;
+	float: left;
+	transition: 1s all;
 }
-
 .search::after {
-  content: attr(data-text);
-  font-size: 0.7rem;
-  line-height: 0;
-  height: 50px;
-  max-width: 100%;
-  font-family: Politica, Roboto, Arial, sans-serif;
-  border-bottom: 3px solid #fff;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  height: 3px;
-  overflow: hidden;
-  user-select: none;
-  color: transparent;
+	content: attr(data-text);
+	font-size: 0.7rem;
+	line-height: 0;
+	height: 50px;
+	max-width: 100%;
+	font-family: Politica, Roboto, Arial, sans-serif;
+	border-bottom: 3px solid #fff;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 3px;
+	overflow: hidden;
+	user-select: none;
+	color: transparent;
 }
-
 .search input {
-  color: #ddd;
-  border: none;
-  border-radius: 0;
-  outline: none;
-  font-size: 1.3rem;
-  font-family: Politica, Roboto, Arial, sans-serif;
-  background-color: transparent;
+	color: #ddd;
+	border: none;
+	border-radius: 0;
+	outline: none;
+	font-size: 1.3rem;
+	font-family: Politica, Roboto, Arial, sans-serif;
+	background-color: transparent;
 }
-
 .search input::placeholder {
 	font-size: 0.8em;
-  font-family: Politica, Roboto, Arial, sans-serif;
+	font-family: Politica, Roboto, Arial, sans-serif;
 }
 
 .cart {
@@ -109,13 +103,9 @@ header .phone{
 	font-size: 40px;
 	color: #fff;
 }
-
 .fa-shopping-cart:hover{
 	color: #178AE5;
 }
-
-
-
 .menu-up{
 	width: 100%;
 	display: flex;
@@ -134,42 +124,35 @@ header .phone{
 	font-size: 45px;
 	overflow: hidden;
 }
-
 .burger{
 	width: 50px;
 	padding: 20px 0;
-
 }
 .burger .fa-bars{
 	font-size: 2em;
 }
-
 .burger_checkbox{
 	display: none;
 }
-
-	.menu-left-mobile a{
-		width: 100%;
-		padding: 5px;
-		text-align: center;
-		border-top: 1px solid #178AE5;
-		font-size: 20px;
-		transition: all 1s ;
-	}
-
-	.menu-left-mobile a:last-child:hover{
-		border-bottom: 1px solid #178AE5;
-	}
-	.menu-left-mobile a:hover{
-		color: #178AE5;
-		border-left: 1px solid #178AE5; 
-		border-right: 1px solid #178AE5; 
-	}
-
-	.menu-left-mobile{
-		display: none;
-
-	}
+.menu-left-mobile a{
+	width: 100%;
+	padding: 5px;
+	text-align: center;
+	border-top: 1px solid #178AE5;
+	font-size: 20px;
+	transition: all 1s ;
+}
+.menu-left-mobile a:last-child:hover{
+	border-bottom: 1px solid #178AE5;
+}
+.menu-left-mobile a:hover{
+	color: #178AE5;
+	border-left: 1px solid #178AE5; 
+	border-right: 1px solid #178AE5; 
+}
+.menu-left-mobile{
+	display: none;
+}
 
 /*MAIN*/
 
@@ -180,7 +163,6 @@ main{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	
 }
 .wrapper .category{
 	width: 45%;
@@ -200,16 +182,13 @@ main{
 .wrapper .category:hover .category-time{
 	margin-left: 5px;
 }
-
 .category a{
 	text-decoration: none;
 }
-
 .category .img-category{
 	width: 100%;
 	height: 265px;
 }
-
 .category .mens-jeans{
 	background:  url(../img/category/mens-jeans.jpg) 0 -45px no-repeat;
 }
@@ -243,14 +222,11 @@ main{
 .category .belts{
 	background: url(../img/category/belts.jpg) 0 -57px no-repeat;
 }
-
 .category .category-description{
 	width: 75%;
 	margin: 15px -10px 20px 25px;
 	float: right;
-	
 }
-
 .category .category-description h3{
 	font-family: Politica, Roboto, Arial, sans-serif;
 	font-weight: bold;	
@@ -263,8 +239,6 @@ main{
 	font-family:    RobotoRegular, Arial, sans-serif;
 	transition: 1s all;
 }
-
-
 .category .category-time{
 	width: 20%;
 	padding: 60px 0 0 0;
@@ -273,7 +247,6 @@ main{
 	position: relative;
 	transition: 1s all;
 }
-
 .category .category-time .quantity{
 	background: #fff;
 	padding: 0 20px 7px 20px;
@@ -283,13 +256,9 @@ main{
 	left: 20px;
 	box-shadow: 3px 3px 10px #000;
 }
-
 .category .category-time .quantity p{
 	font-size: 2.5em;
-
 }
-
-
 .sale-new{
 	width: 100%;
 	display: flex;
@@ -339,8 +308,11 @@ main{
 	color: #fff;
 }
 
+/*FOOTER*/
+
 footer{
 	width: 100%;
+	margin-top: 50px;
 	padding: 20px;
 	background: #333;
 	color: #fff;
@@ -348,6 +320,7 @@ footer{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
+	position: relative;
 }
 .footer-logo img{
 	width: 80px;
@@ -372,13 +345,12 @@ footer ul{
 .footer-info li{
 	font-size: 1.7em;
 }
-
 .footer-contact {
 	font-family: Politica;
 	font-size: 1.3em;
 }
-
 .footer-number{
+	margin-top: 15px;
 	font-size: 2.7em;
 	font-family: Politica;
 }
@@ -406,5 +378,32 @@ footer ul{
 	border: 1px solid #eee;
 	border-radius: 7px;
 }
-
-
+.scrollTop{
+	width: 75px;
+	height: 75px;
+	background: #fff;
+	border: 1px solid #aaa;
+	border-radius: 50%;
+	position: relative;
+	transition: .5s all;
+}
+.scrollTop .fa{
+	color: #333;
+	font-size: 4em;
+	position: absolute;
+	top: 0px;
+	left: 23%;
+}
+.position{
+	position: absolute;
+	left: 48%;
+	top: -40px;
+}
+.scrollTop:hover{
+	background: #178AE5;
+	border-color: #178AE5;
+	cursor: pointer;
+}
+.scrollTop:hover .fa-angle-double-up{
+	color: #fff;
+}
