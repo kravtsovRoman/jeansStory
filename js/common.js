@@ -24,3 +24,16 @@ $(window).scroll(function(){
         $('.logo img').removeClass('menu-scrol');
     }
 });
+
+//Прокрутка вверх scrollTop
+
+(function($) {
+$(function() {
+
+  $('#up').click(function() {
+    $('html, body').animate({scrollTop: 0},800);
+    return false;
+  })
+
+})
+})(jQuery);
