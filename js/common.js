@@ -26,14 +26,26 @@ $(window).scroll(function(){
 });
 
 //Прокрутка вверх scrollTop
-
 (function($) {
-$(function() {
-
-  $('#up').click(function() {
-    $('html, body').animate({scrollTop: 0},800);
-    return false;
-  })
-
-})
+	$(function() {
+	  $('#up').click(function() {
+	    $('html, body').animate({scrollTop: 0},800);
+	    return false;
+	  })
+	})
 })(jQuery);
+
+//Аккордеон
+$(document).ready(function(){
+	$('.filter-header').on('click', function(){
+		$(this).next().slideToggle();
+
+		if($(this).children().hasClass('fa-minus')){
+			$(this).children().removeClass('fa-minus');
+			$(this).children().addClass('fa-plus');
+		}else{
+			$(this).children().removeClass('fa-plus');
+			$(this).children().addClass('fa-minus');
+		}
+	})
+});
