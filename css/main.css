@@ -6,7 +6,10 @@ body{
 	position: relative;
 	margin-top: 100px;
 }
-
+.clear {
+	content: '';
+	clear: both;
+}
 /*HEADER*/
 
 header{
@@ -113,6 +116,7 @@ header .phone{
 }
 .logo-mobile{
 	float: left;
+	margin-top: 10px;
 }
 .logo-mobile img {
 	width: 50px;
@@ -120,13 +124,13 @@ header .phone{
 }
 .header-mobile .phone {
 	margin: auto auto;
-	padding: 3px;
+	padding: 0;
 	font-size: 45px;
 	overflow: hidden;
 }
 .burger{
 	width: 50px;
-	padding: 20px 0;
+	padding: 25px 0 10px 0;
 }
 .burger .fa-bars{
 	font-size: 2em;
@@ -396,7 +400,7 @@ footer ul{
 }
 .position{
 	position: absolute;
-	left: 48%;
+	left: calc(48% - 30px);
 	top: -40px;
 }
 .scrollTop:hover{
@@ -530,6 +534,7 @@ aside{
   list-style: none;
   display: inline-block;
   padding-left: 0px;
+  float: left;
 
 }
 #breadcrumb .icon {
@@ -589,6 +594,17 @@ aside{
   left: 100%;
   border-color: transparent;
   border-left-color: #178AE5;
+}
+.filter-button{
+	display: none;
+	width: 65px;
+	padding: 9px 0;
+	margin-right: 3px;
+	border-radius: 3px;
+	float: right;
+	color: #fff;
+	text-align: center;
+	background: #178AE5;
 }
 .category-name{
 	width: 99%;
@@ -671,14 +687,13 @@ aside{
 .navigation li, .navigation span{
 	display: inline-block;
 	color: #178AE5;
-	/*padding-right: 20px;*/
 	font-family: RobotoRegular, sans-serif;
 	font-size: 1.2em;
 	cursor: pointer;
 	padding: 0 10px;
 
 }
-.navigation li:hover, .navigation span:hover{
+.navigation li:not(.not-hover):hover, .navigation span:hover{
 	color:#fff;
 	background: #178AE5;
 }

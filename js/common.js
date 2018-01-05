@@ -1,5 +1,5 @@
 
-//Burger menu 
+//Burger menu в моб. версии
 $(document).ready(function(){
 	$('.fa-bars').on('click', function(event){
 			$('.menu-left-mobile').slideToggle();
@@ -48,6 +48,17 @@ $(document).ready(function(){
 			$(this).children().addClass('fa-minus');
 		}
 	})
+});
+
+//Фильтры товаров в моб. версии
+$(document).ready(function(){
+	$('.filter-button').on('click', function(event){
+			$('.filter-header').next().slideToggle();
+			$('aside').slideToggle();
+			event.stopPropagation();
+			$('.filter-header').children().removeClass('fa-minus');
+			$('.filter-header').children().addClass('fa-plus');
+		});
 });
 
 // OwlCarousel - Слайдер товаров
