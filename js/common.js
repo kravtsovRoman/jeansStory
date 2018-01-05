@@ -9,7 +9,7 @@ $(document).ready(function(){
 
 //Header slide
 $(window).scroll(function(){
-    if ($(window).scrollTop() > 100) {
+    if ($(window).scrollTop() > 30) {
         $('.menu-left a').addClass('menu-scrol');
         $('.phone').addClass('menu-scrol');
         $('.search').addClass('scrol');
@@ -35,7 +35,7 @@ $(window).scroll(function(){
 	})
 })(jQuery);
 
-//Аккордеон
+//Аккордеон - Фильтры товаров
 $(document).ready(function(){
 	$('.filter-header').on('click', function(){
 		$(this).next().slideToggle();
@@ -48,4 +48,27 @@ $(document).ready(function(){
 			$(this).children().addClass('fa-minus');
 		}
 	})
+});
+
+// OwlCarousel - Слайдер товаров
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    nav:true,
+    autoplay: true,
+	autoplayTimeout: 7000,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:4,
+            nav:false
+        },
+        1000:{
+            items:5,
+            nav:true,
+            loop:false
+        }
+    }
 });
