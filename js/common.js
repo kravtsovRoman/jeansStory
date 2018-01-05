@@ -57,15 +57,23 @@ $('.owl-carousel').owlCarousel({
     autoplay: true,
 	autoplayTimeout: 7000,
     responsive:{
-        0:{
+    	200:{
             items:1,
             nav:true
         },
-        600:{
+        576:{
+            items:2,
+            nav:true
+        },
+        768:{
+            items:3,
+            nav:false
+        },
+        992:{
             items:4,
             nav:false
         },
-        1000:{
+        1200:{
             items:5,
             nav:true,
             loop:false

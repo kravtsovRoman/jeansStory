@@ -1,6 +1,6 @@
 
 /* Large Devices, Wide Screens */
-@media only screen and (max-width : 1200px) {
+@media only screen and (max-width : 1250px) {
 	.menu-left a, header .phone{
 		font-size: 17px;
 	}
@@ -19,6 +19,39 @@
 	}
 	.cart{
 		padding: 25px 0;
+	}
+	aside{
+		width: 17%;
+		padding: 5px;
+		margin-top: 5px;
+		font-size: 	0.7em;
+	}
+	.content{
+		width: 80%;
+		margin-top: 5px;
+		margin-left: 5px;
+		font-size: 	0.8em;
+	}
+	.stock li, .category-list li{
+		padding-bottom: 5px;
+		padding-top: 0;
+	}
+	.category-name p{
+		padding: 7px;
+	}
+	.yet-tovar {
+	    width: 40%;
+	    margin: 20px auto 10px auto;
+	    font-size: 	0.8em;
+	}
+	.navigation ul {
+	    width: 35%;
+	    margin: 20px auto 40px auto;
+	    font-size: 	0.8em;
+	}
+	footer {
+    	width: 90%;
+    	padding: 0;
 	}
 }
 
