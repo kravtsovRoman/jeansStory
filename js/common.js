@@ -61,33 +61,68 @@ $(document).ready(function(){
 		});
 });
 
-// OwlCarousel - Слайдер товаров
-$('.owl-carousel').owlCarousel({
-    loop:true,
-    nav:true,
-    autoplay: true,
-	autoplayTimeout: 7000,
-    responsive:{
-    	200:{
-            items:1,
-            nav:true
-        },
-        576:{
-            items:2,
-            nav:true
-        },
-        768:{
-            items:3,
-            nav:false
-        },
-        992:{
-            items:4,
-            nav:false
-        },
-        1200:{
-            items:5,
-            nav:true,
-            loop:false
-        }
-    }
+//Slider Product
+$(document).ready(function(){
+	$('.slider-product').slick({
+			slidesToShow: 1,
+			slidesToScroll: 1,
+			fade: true,
+			arrows: false,
+			asNavFor: '.slider-product-nav'
+		});
+		$('.slider-product-nav').slick({
+			slidesToShow: 4,
+			asNavFor: '.slider-product',
+			focusOnSelect: true
+		});
+	$('.slider_item').zoom({
+		on:'grab',
+		magnify: '2'
+	});
+});
+
+//Slider Catalog
+$(document).ready(function(){
+  $('.multiple-item').slick({
+  	infinite: true,
+  	autoplay: true,
+  	autoplaySpeed: 2000,
+  	slidesToShow: 5,
+  	slidesToScroll: 1,
+  	responsive: [
+    {
+      breakpoint: 1200,
+      settings: {
+        arrows: true,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 5
+      }
+    },
+    {
+      breakpoint: 992,
+      settings: {
+        slidesToShow: 4
+      }
+    },
+    {
+     breakpoint: 768,
+      settings: {
+       slidesToShow: 3
+  	  }
+    },
+    {
+	 breakpoint: 576,
+	  settings: {
+	    slidesToShow: 2
+	  }
+	},
+	{
+	 breakpoint: 450,
+	  settings: {
+	    slidesToShow: 1
+	  }
+	}
+  ]
+  });
 });

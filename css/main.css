@@ -1,3 +1,12 @@
+/*{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}*/
+
+
 *, p{
 	padding: 0;
 	margin: 0;
@@ -95,7 +104,6 @@ header .phone{
 	font-size: 0.8em;
 	font-family: Politica, Roboto, Arial, sans-serif;
 }
-
 .cart {
 	padding: 30px 0 ;
 	float: left;
@@ -239,6 +247,7 @@ header .phone{
 	transition: 1s all;
 }
 .category .category-description p{
+	padding-right: 5px;
 	color: #555;
 	font-family:    RobotoRegular, Arial, sans-serif;
 	transition: 1s all;
@@ -270,7 +279,7 @@ header .phone{
 	justify-content: center;
 }
 .box{
-	width: 45%;
+	width: 44%;
 	height: 160px;
 	margin: 20px;
 	overflow: hidden;
@@ -311,6 +320,8 @@ header .phone{
 .all-catalog:hover h5, .yet-tovar h5{
 	color: #fff;
 }
+
+
 
 /*FOOTER*/
 
@@ -413,7 +424,7 @@ footer ul{
 }
 
 
-/*Catalog*/
+/*CATALOG page*/
 aside{
 	width: 18%;
 	padding: 15px;
@@ -485,7 +496,6 @@ aside{
 .filter-body li{
 	list-style-type: none;
 }
-/*оформление чекбоксов*/
 .checkbox + label {
   cursor: pointer;
 }
@@ -526,16 +536,12 @@ aside{
 .checkbox:checked + label:after {
   left: 26px;
 }
-
-
-
 /* хлебные крошки */
 #breadcrumb {
   list-style: none;
   display: inline-block;
   padding-left: 0px;
   float: left;
-
 }
 #breadcrumb .icon {
   font-size: 14px;
@@ -605,6 +611,7 @@ aside{
 	color: #fff;
 	text-align: center;
 	background: #178AE5;
+	cursor: pointer;
 }
 .category-name{
 	width: 99%;
@@ -639,11 +646,13 @@ aside{
 .img-tovar{
 	width: 100%;
 	height: 300px;
-	background: url(../img/tovar1.jpg) no-repeat;
-	background-position: center;
+	overflow: hidden;
+	background-size: cover;
 }
-
-
+.img-tovar img{
+	width: 100%;
+	height: 100%;
+}
 .item-tovar{
 	font-family: RobotoRegular, sans-serif;
 	color: #333;
@@ -668,7 +677,6 @@ aside{
 	color: #333;
 	text-decoration: none;
 }
-
 .yet-tovar{
 	width: 25%;
 	margin: 50px auto 30px auto;
@@ -679,7 +687,6 @@ aside{
 .yet-tovar h5:hover{
 	color: #fff;
 }
-
 .navigation ul{
 	width: 25%;
 	margin: 30px auto 80px auto;
@@ -691,7 +698,6 @@ aside{
 	font-size: 1.2em;
 	cursor: pointer;
 	padding: 0 10px;
-
 }
 .navigation li:not(.not-hover):hover, .navigation span:hover{
 	color:#fff;
@@ -701,7 +707,7 @@ aside{
 	color:#fff;
 	background: #178AE5;
 }
-.slider{
+.slider-catalog{
 	width: 95%;
 	margin: 0 auto;
 }
@@ -723,7 +729,6 @@ aside{
 	position: absolute;
 	top: 15px;
 	left: 0;
-
 }
 .title-carousel p{
 	background: #fff;
@@ -732,10 +737,48 @@ aside{
 	z-index: 99;
 	position: relative;
 }
-
-.owl-carousel .item{
+.slider-catalog .item{
 	transition: .3s all;
 }
-.owl-carousel .item:hover{
+.slider-catalog .item:hover{
 	transform: scale(1.02, 1.02);
+}
+
+
+
+
+/*PRODUCT*/
+
+.foto{
+	position: relative !important;
+	margin-bottom: 140px;
+	padding-top: 	20px;
+}
+.slider-product{
+	max-width: 450px;
+	border: 1px solid #ccc;
+	padding: 2px;
+}
+.slider_item img{
+	max-width: 100%;
+}
+.slider-product-nav{
+	position: absolute;
+	left: -2px;
+	bottom: -130px;
+	z-index: 999;
+}
+.slider-nav_item{
+	margin: 3px;
+	opacity: .6;
+	transition: .2s all;
+}
+.slider-nav_item:hover, 
+.slick-current{
+	opacity: 1;
+	cursor: pointer;
+}
+.slider-nav_item img {
+	width: 80px;
+	border: 1px solid #ccc;
 }

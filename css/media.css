@@ -120,7 +120,7 @@
 		font-size: 	0.7em;
 	}
 	.wrapper .item-tovar{
-		width: 28%;
+		width: 31%;
 		margin: 5px ;
 	}
 	.checkbox:not(checked) + label {
@@ -236,7 +236,7 @@
 		margin-bottom: 0;
 	}
 	.wrapper .item-tovar {
-	    width: 80%;
+	    width: 45%;
 	    margin: 5px;
 	}
 	.yet-tovar {
@@ -284,6 +284,10 @@
 	}
 	#breadcrumb li a{
 		margin-right: 10px;
+	}
+	.wrapper .item-tovar {
+	    width: 80%;
+	    margin: 5px;
 	}
 }
 
