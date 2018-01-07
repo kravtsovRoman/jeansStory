@@ -124,7 +124,7 @@ header .phone{
 }
 .logo-mobile{
 	float: left;
-	margin-top: 10px;
+	padding-top: 10px;
 }
 .logo-mobile img {
 	width: 50px;
