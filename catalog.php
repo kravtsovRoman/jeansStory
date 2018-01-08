@@ -11,14 +11,14 @@
 					<li>
 						<a href="#"><i class="fa fa-home" aria-hidden="true"></i>
 							<span class="sr-only">Главная</span></a>
-						</li>
-						<li>
-							<a href="#">Каталог</a>
-						</li>
-						<li class="current">
-							<a href="#">Мужские джинсы</a>
-						</li> 
-					</ol>
+					</li>
+					<li>
+						<a href="#">Каталог</a>
+					</li>
+					<li class="current">
+						<a href="#">Мужские джинсы</a>
+					</li> 
+				</ol>
 					<div class="filter-button">
 						Фильтры
 					</div>
