@@ -743,6 +743,11 @@ aside{
 .slider-catalog .item:hover{
 	transform: scale(1.02, 1.02);
 }
+.slick-prev, .slick-next, .slick-arrow{
+	display: none !important;
+}
+
+
 
 
 
