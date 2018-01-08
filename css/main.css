@@ -765,18 +765,19 @@ aside{
 	margin-bottom: 140px;
 }
 .slider-product{
-
+	position: relative !important;
 	max-width: 450px;
 	border: 1px solid #ccc;
 	padding: 2px;
 }
 .slider_item img{
-	max-width: 100%;
+	width: 100%;
 }
 .slider-product-nav{
+	max-width: 500px;
 	position: absolute;
-	left: -4px;
-	bottom: -155px;
+	left: -2px;
+	top: 615px;
 }
 .slider-nav_item{
 	margin: 3px;
@@ -790,10 +791,13 @@ aside{
 }
 .slider-nav_item img {
 	width: 100px;
-	border: 1px solid #ccc;
+
 }
-
-
+.slick-list.draggable{
+	max-width: 410px;
+}
 .product-info{
 	width: 60%;
+	position: inherit;
+	transform: none;
 }
