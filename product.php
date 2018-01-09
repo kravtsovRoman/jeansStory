@@ -95,14 +95,26 @@
 						 x 
 						 	<i class="fa fa-angle-double-left" aria-hidden="true"></i>
 						 <span class="product-quantity"> 6 </span>
-						 	<i class="fa fa-angle-double-right" aria-hidden="true"></i>	 
+						 	<a href="#">
+						 		<i class="fa fa-angle-double-right" aria-hidden="true"></i>
+						 	</a>
 						  = 
 						  <span class="total-price"> 72 </span>
-						  <i class="fa fa-usd" aria-hidden="true"></i>
+						  <a href="#">
+						  	<i class="fa fa-usd" aria-hidden="true"></i>
+						  </a>
 					</p> 
+				</div>
+				<div class="product-buy">
+					Добавить в корзину
+				</div>
+				<div class="product-number">
+					<p>Звоните по телефону для обсуждения всех подробностей</p>
+					<a href="tel:08004567890" class="phone"> 0 800 456 78 90 </a>
 				</div>
 			</div>
 		</div>
+		<hr>
 	</div>
 </div><!--wrapper-->
 

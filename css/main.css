@@ -864,18 +864,18 @@ aside{
 	padding: 5px 0;
 	height: 40px;
 }
-
+.product-data{
+	width: 50%;
+}
 .price-edit p{
 	display: block;
 	font-size: 2.1em;
 	margin-right: 50px;
-
 }
 .price-edit .fa{
 	color: #178AE5;
 	font-size: 1em;
 	cursor: pointer;
-
 }
 .price-edit .fa-angle-double-right{
 	margin-left: 3px;
@@ -898,7 +898,6 @@ aside{
 	padding: 5px 10px;
 	text-align: center;
 }
-
 .price-edit .fa-usd{
 	font-size: 0.5em;
 	vertical-align: sub;
@@ -908,5 +907,35 @@ aside{
 	color: #e25a46;
 	font-size: 1.3em;
 	vertical-align: middle;
-			overflow: hidden;
+}
+.product-buy{
+	width: 250px;
+	margin-top: 20px;
+	float: right;
+	border: 2px solid #178AE5;
+	background: #178AE5;
+	color: #fff;
+	font-size: 1.5em;
+	text-align: center;
+	padding: 10px 15px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: .3s;
+}
+.product-buy:hover{
+	background: #fff;
+	color: #178AE5;
+}
+.product-number{
+	margin-top: 30px;
+	font-size: 0.8em;
+	font-family: RobotoRegular;
+	float: right;
+}
+.product-number a{
+	font-family: Politica, RobotoRegular, sans-serif;
+	text-decoration: none;
+	color: #000;
+	font-size: 3.5em;
+	font-weight: bold;
 }
