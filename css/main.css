@@ -7,13 +7,14 @@
 }*/
 
 
-*, p{
+*, p, hr{
 	padding: 0;
 	margin: 0;
 }
 body{
 	position: relative;
 	margin-top: 100px;
+	overflow-x: hidden;
 }
 .clear {
 	content: '';
@@ -748,13 +749,17 @@ aside{
 .slick-prev, .slick-next, .slick-arrow{
 	display: none !important;
 }
+.slick-initialized .slick-slide{
+	width: 100px;
+}
+
 
 
 
 /*PRODUCT*/
 .breadcrumb-product{
 	width: 100%;
-	margin: 20px 20px 10px 30px;
+	margin: 25px 20px 30px 30px;
 }
 .flex-between{
 	justify-content: space-around;
@@ -774,7 +779,7 @@ aside{
 	width: 100%;
 }
 .slider-product-nav{
-	max-width: 500px;
+	max-width: 410px;
 	position: absolute;
 	left: -2px;
 	top: 615px;
@@ -793,11 +798,115 @@ aside{
 	width: 100px;
 
 }
-.slick-list.draggable{
-	max-width: 410px;
-}
+
 .product-info{
 	width: 60%;
-	position: inherit;
-	transform: none;
+}
+.product-info hr{
+	margin: 5px 0 20px 0;
+}
+
+.wrap{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	font-family: Politica;
+}
+.product-name{
+	font-family: Politica, sans-serif;
+	font-size: 1.7em;
+	font-weight: bolder;
+}
+.product-barcode {
+	font-size: 1.3em;
+	font-weight: bold;
+}
+.product-price p{
+	text-align: center;
+	min-width: 150px;
+	font-size: 3em;
+	color: #e25a46;
+	border: 2px solid #e25a46;
+	padding: 5px 10px;
+	margin: 0 auto 15px auto;
+	font-weight: bold;
+	border-radius: 5px;
+}
+.product-price span{
+	font-size: 0.4em;
+	font-weight: 400;
+}
+.isset{
+	text-align: center;
+	padding: 5px 15px;
+	color: #fff;
+	background: #3FBA3A;
+	border-radius: 5px;
+}
+.product-filters{
+	font-family: RobotoRegular;
+}
+.product-filters h4, .product-filters td:first-child{
+	font-weight: bold;
+	font-family: Politica;
+}
+.filter-link{
+	color: #000;
+	text-decoration: underline;
+}
+.filter-link:hover{
+	color: #000;
+}
+.table-filters {
+	min-width: 350px;
+}
+.table-filters tr{
+	padding: 5px 0;
+	height: 40px;
+}
+
+.price-edit p{
+	display: block;
+	font-size: 2.1em;
+	margin-right: 50px;
+
+}
+.price-edit .fa{
+	color: #178AE5;
+	font-size: 1em;
+	cursor: pointer;
+
+}
+.price-edit .fa-angle-double-right{
+	margin-left: 3px;
+	margin-right: 10px;
+}
+.price-edit .fa-angle-double-left{
+	margin-left: 10px;
+}
+.price-edit .product-price-edit{
+	color: #e25a46;
+	font-weight: bold;
+	padding: 0 10px;
+	vertical-align: middle;
+}
+.product-quantity{
+	color: #178AE5;
+	font-size: 1.5em;
+	vertical-align: middle;
+	border: 1px solid #178AE5;
+	padding: 5px 10px;
+	text-align: center;
+}
+
+.price-edit .fa-usd{
+	font-size: 0.5em;
+	vertical-align: sub;
+	color: #e25a46;
+}
+.total-price{
+	color: #e25a46;
+	font-size: 1.3em;
+	vertical-align: middle;
+			overflow: hidden;
 }
