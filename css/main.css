@@ -466,6 +466,9 @@ aside{
 .category-list li span{
 	float: right;
 }
+.stock2{
+	display: none;
+}
 .clear-filters{
 	width: 100%;
 	border: 2px solid #178AE5;

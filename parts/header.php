@@ -28,7 +28,7 @@
 						<a href="catalog.php">Каталог</a>
 					</div>
 					<div class="col-md-2 col-sm-3 col-xs-12 logo">
-						<a href="index.html">
+						<a href="index.php">
 							<img src="img/logo1.png" alt="" >
 						</a>
 					</div>

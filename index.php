@@ -3,7 +3,7 @@
 ?>
 		<div class="wrapper">
 			<section class="category" id="top" >
-				<a href="#">
+				<a href="catalog.php">
 					<div class="img-category mens-jeans"></div>
 					<div class="category-description">
 						<h3>Мужские джинсы</h3>
@@ -20,7 +20,7 @@
 				</a>
 			</section>
 			<section class="category ">
-				<a href="#">
+				<a href="catalog.php">
 					<div class="img-category womens-jeans"></div>
 					<div class="category-description">
 						<h3>Женские джинсы</h3>
@@ -37,7 +37,7 @@
 				</a>
 			</section>
 			<section class="category ">
-				<a href="#">
+				<a href="catalog.php">
 					<div class="img-category pullovers"></div>
 					<div class="category-description">
 						<h3>Свитера</h3>
@@ -54,7 +54,7 @@
 				</a>
 			</section>
 			<section class="category ">
-				<a href="#">
+				<a href="catalog.php">
 					<div class="img-category t-shirts"></div>
 					<div class="category-description">
 						<h3>Футболки</h3>
@@ -71,7 +71,7 @@
 				</a>
 			</section>
 			<section class="category ">
-				<a href="#">
+				<a href="catalog.php">
 					<div class="img-category batnik"></div>
 					<div class="category-description">
 						<h3>Батники</h3>
@@ -88,7 +88,7 @@
 				</a>
 			</section>
 			<section class="category ">
-				<a href="#">
+				<a href="catalog.php">
 					<div class="img-category jackets"></div>
 					<div class="category-description">
 						<h3>Куртки</h3>
@@ -105,7 +105,7 @@
 				</a>
 			</section>
 			<section class="category ">
-				<a href="#">
+				<a href="catalog.php">
 					<div class="img-category overalls"></div>
 					<div class="category-description">
 						<h3>Комбинизоны</h3>
@@ -122,7 +122,7 @@
 				</a>
 			</section>
 			<section class="category ">
-				<a href="#">
+				<a href="catalog.php">
 					<div class="img-category vests"></div>
 					<div class="category-description">
 						<h3>Жилетки</h3>
@@ -139,7 +139,7 @@
 				</a>
 			</section>
 			<section class="category ">
-				<a href="#">
+				<a href="catalog.php">
 					<div class="img-category shorts"></div>
 					<div class="category-description">
 						<h3>Шорты</h3>
@@ -156,7 +156,7 @@
 				</a>
 			</section>
 			<section class="category ">
-				<a href="#">
+				<a href="catalog.php">
 					<div class="img-category belts"></div>
 					<div class="category-description">
 						<h3>Ремни</h3>

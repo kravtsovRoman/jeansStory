@@ -39,7 +39,6 @@ $(window).scroll(function(){
 $(document).ready(function(){
 	$('.filter-header').on('click', function(){
 		$(this).next().slideToggle();
-
 		if($(this).children().hasClass('fa-minus')){
 			$(this).children().removeClass('fa-minus');
 			$(this).children().addClass('fa-plus');
@@ -47,6 +46,7 @@ $(document).ready(function(){
 			$(this).children().removeClass('fa-plus');
 			$(this).children().addClass('fa-minus');
 		}
+
 	})
 });
 
