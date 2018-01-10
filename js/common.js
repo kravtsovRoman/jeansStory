@@ -126,3 +126,28 @@ $(document).ready(function(){
   ]
   });
 });
+
+// Модальное окно - Таблица размеров
+//Открытие
+$(document).ready(function(){
+	$('#ruler').on('click', function(){
+		$('#myModal').fadeIn();
+	})
+});
+
+//Закрытие - клик по крестику
+$(document).ready(function(){
+		$('.close').on('click', function(){
+		$('#myModal').fadeOut();
+	})
+});
+
+//Закрытие - клик вне окна
+$(document).ready(function(){
+	$(window).on('click', function(event){
+		var modal = document.getElementById("myModal");
+		if(event.target == modal){
+			$('#myModal').fadeOut();
+		}
+	})
+});

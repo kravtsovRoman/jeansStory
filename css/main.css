@@ -868,7 +868,10 @@ aside{
 	height: 40px;
 }
 .product-data{
-	width: 50%;
+	width: 60%;
+}
+.price-edit{
+	margin-left: 120px;
 }
 .price-edit p{
 	display: block;
@@ -941,4 +944,99 @@ aside{
 	color: #000;
 	font-size: 3.5em;
 	font-weight: bold;
+}
+.product-data .ruler{
+	text-align: center;
+	margin-top: 5px;
+	margin-right: 20px;
+	font-size: 1.3em;
+	cursor: pointer;
+}
+.product-data .ruler img{
+	padding: 7px;
+	border: 1px solid #178AE5;
+	border-radius: 50%;
+}
+.product-data .modal{
+	display: none;
+	position: fixed;
+	z-index: 999;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(255, 255, 255, .9);
+}
+.product-data .modal-text{
+	font-family: Politica, sans-serif;
+	position: absolute;
+	top: 15%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+
+	width: 80%;
+	float: left;
+	border-radius: 5px;
+}
+.product-data .close{
+	position: absolute;
+	top: -10px;
+	right: 10px;
+	color: #178AE5;
+	float: right;
+	font-size: 90px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.modal input{
+	display: none;
+}
+.modal input:checked + label{
+	background: #178AE5;
+	color: #fff;
+}
+input[id="tab-1"]:checked ~ .ruler-content .tab-1,
+input[id="tab-2"]:checked ~ .ruler-content .tab-2{
+	display: block;
+}
+.modal label{
+	margin-bottom: 0;
+	cursor: pointer;
+	padding: 10px 20px;
+	margin-right: 5px;
+	background: #ccc;
+	font-size: 1.5em;
+}
+.modal h3{
+	font-weight: bold;
+	text-align: center;
+}
+
+.ruler-content{
+	position: relative;
+}
+.ruler-content article{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: #fff  ;
+	padding: 20px 30px;
+	border: 2px solid #178AE5;
+	display: none;
+	font-family: RobotoRegular, sans-serif;
+}
+.ruler-content article table{
+	width: 100%;
+}
+.ruler-content article table td,
+.ruler-content article table th{
+	padding: 5px;
+	text-align: center;
+	border-bottom: 1px solid #ccc;
+}
+.ruler-content p{
+	margin-top: 10px;
 }
