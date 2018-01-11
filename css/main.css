@@ -641,7 +641,6 @@ aside{
 .wrapper .item-tovar{
 	width: 18%;
 	margin: 10px ;
-	border-left: 1px solid #eee;
 	border-top: 1px solid #eee;
 	box-shadow: 2px 2px 3px #aaa;
 	box-sizing: border-box;
@@ -770,7 +769,7 @@ aside{
 .product-foto{
 	width: 30%;
 	position: relative !important;
-	margin-bottom: 140px;
+	margin-bottom: 175px;
 }
 .slider-product{
 	position: relative !important;
@@ -973,8 +972,6 @@ aside{
 	top: 15%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-
-
 	width: 80%;
 	float: left;
 	border-radius: 5px;
@@ -989,7 +986,6 @@ aside{
 	font-weight: bold;
 	cursor: pointer;
 }
-
 .modal input{
 	display: none;
 }
@@ -1013,7 +1009,6 @@ input[id="tab-2"]:checked ~ .ruler-content .tab-2{
 	font-weight: bold;
 	text-align: center;
 }
-
 .ruler-content{
 	position: relative;
 }
@@ -1039,4 +1034,8 @@ input[id="tab-2"]:checked ~ .ruler-content .tab-2{
 }
 .ruler-content p{
 	margin-top: 10px;
+}
+.product-description{
+	height: 275px;
+	overflow-x: hidden;
 }
