@@ -52,6 +52,13 @@
 	footer {
     	padding: 0;
 	}
+	#breadcrumb li:last-child {
+	  display: none;
+	}
+	.slider-product-nav{
+		max-width: 310px;
+		top: 560px;
+	}
 }
 
 /* Medium Devices, Desktops */
@@ -92,6 +99,44 @@
 	.category .category-time{
 		margin-left: 40px;
 		margin-bottom: 20px;
+	}
+	#breadcrumb {
+	  margin-top: -20px;
+	  margin-bottom: 10px;
+	}
+	.product-info{
+		font-size: 0.9em;
+	}
+	.product-name{
+		font-size: 1.3em;
+	}
+	.product-name h2{
+		font-size: 1.3em;
+	}
+	.product-price p{
+		font-size: 1.8em;
+	}
+	.product-buy{
+		width: 170px;
+		margin-top: 0px;
+		font-size: 0.9em;
+		margin-top: 10px;
+		padding: 5px;
+	}
+	.price-edit p{
+		margin-right: -10px;
+	}
+	.product-data .ruler{
+		margin-top: 0;
+		margin-right: 40px;
+		font-size: 1em;
+	}
+	.product-number a{
+		font-size: 2.5em;
+	}
+	.slider-product-nav{
+		max-width: 290px;
+		top: 440px;
 	}
 }
 
@@ -168,9 +213,66 @@
 	    font-size: 1.1em;
 	    margin-bottom: 20px;
 	}
+	#breadcrumb {
+	  margin-top: -5px;
+	  margin-bottom: 10px;
+	}
+	.product-foto{
+		width: 100%;
+	}
+	.slider-product-nav {
+	    max-width: 410px;
+	    top: 675px;
+	    left: 25%;
+	    position: absolute;
+	}
+	.slider-product{
+		margin: 0 auto;
+	}
+	.product-info{
+		width: 75%;
+	}
+	.wrap{
+		display: inline-block;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.product-price{
+		width: 30%;
+		display: inline-block;
+		margin: 0 auto;
+	}
+	.table-filters{
+		margin: 0 auto;
+	}
+	.product-data{
+		width: 100%;
+	}
+	.ruler{
+		display: inline-block;
+	}
+	.product-buy{
+		margin-top: 15px;
+		font-size: 1.5em;
+		width: 200px;
+		padding: 10px 10px;
+	}
+	.product-number{
+		margin-top: 10px;
+	}
+	.product-info hr{
+		margin: 5px;
+	}
+	.product-description{
+		width: 100%;
+	}
+
 }
 
 @media only screen and (max-width : 576px) {
+	.row{
+		margin: 0;
+	}
 	.logo-mobile {
 		width: 75px;
 	}
@@ -267,6 +369,20 @@
 	.footer-contact .fa{
 		display: none;
 	}
+
+	#breadcrumb {
+	  margin-bottom: 10px;
+	}
+	.slider-product-nav {
+	    left: 13%;
+	    position: absolute;
+	}
+	.product-price{
+		width: inherit;
+	}
+	.table-filters{
+		min-width: 260px;
+	}
 }
 
 @media only screen and (max-width : 400px) {
@@ -289,6 +405,14 @@
 	.wrapper .item-tovar {
 	    width: 80%;
 	    margin: 5px;
+	}
+	.product-foto{
+
+	}
+	body{
+		margin-top: 90px;
+	}
+	main{
 	}
 }
 

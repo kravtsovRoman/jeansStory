@@ -353,13 +353,6 @@ include('parts/header.php');
 			?>
 		</div>
 </div><!--wrapper-->
-
-
-
-
-
-
-
 <?php
 include('parts/footer.php');
 ?>

@@ -1,7 +1,6 @@
 <?php
 	include('parts/header.php');
 ?>
-
 <div class="wrapper">
 	<?php
 		include('parts/aside.php');

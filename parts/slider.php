@@ -1,4 +1,4 @@
-<div class="slider-catalog">
+	<div class="slider-catalog">
 		<div class="multiple-item">
 			<div class="item">
 				<a href="product.html" class="item-tovar">
