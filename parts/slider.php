@@ -1,7 +1,7 @@
 	<div class="slider-catalog">
 		<div class="multiple-item">
 			<div class="item">
-				<a href="product.html" class="item-tovar">
+				<a href="product.php" class="item-tovar">
 					<div class="img-tovar">
 						<img src="img/tovar2.jpg" alt="">
 					</div>
@@ -11,7 +11,7 @@
 				</a>
 			</div>
 			<div class="item">
-				<a href="product.html" class="item-tovar">
+				<a href="product.php" class="item-tovar">
 					<div class="img-tovar">
 						<img src="img/tovar2.jpg" alt="">
 					</div>
@@ -21,7 +21,7 @@
 				</a>
 			</div>
 			<div class="item">
-				<a href="product.html" class="item-tovar">
+				<a href="product.php" class="item-tovar">
 					<div class="img-tovar">
 						<img src="img/tovar2.jpg" alt="">
 					</div>
@@ -31,7 +31,7 @@
 				</a>
 			</div>
 			<div class="item">
-				<a href="product.html" class="item-tovar">
+				<a href="product.php" class="item-tovar">
 					<div class="img-tovar">
 						<img src="img/tovar2.jpg" alt="">
 					</div>
@@ -41,7 +41,7 @@
 				</a>
 			</div>
 			<div class="item">
-				<a href="product.html" class="item-tovar">
+				<a href="product.php" class="item-tovar">
 					<div class="img-tovar">
 						<img src="img/tovar2.jpg" alt="">
 					</div>
@@ -51,7 +51,7 @@
 				</a>
 			</div>
 			<div class="item">
-				<a href="product.html" class="item-tovar">
+				<a href="product.php" class="item-tovar">
 					<div class="img-tovar">
 						<img src="img/tovar2.jpg" alt="">
 					</div>
@@ -61,7 +61,7 @@
 				</a>
 			</div>
 			<div class="item">
-				<a href="product.html" class="item-tovar">
+				<a href="product.php" class="item-tovar">
 					<div class="img-tovar">
 						<img src="img/tovar2.jpg" alt="">
 					</div>
@@ -71,7 +71,7 @@
 				</a>
 			</div>
 			<div class="item">
-				<a href="product.html" class="item-tovar">
+				<a href="product.php" class="item-tovar">
 					<div class="img-tovar">
 						<img src="img/tovar2.jpg" alt="">
 					</div>

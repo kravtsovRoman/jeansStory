@@ -145,6 +145,7 @@ header .phone{
 }
 .burger .fa-bars{
 	font-size: 2em;
+	cursor: pointer;
 }
 .burger_checkbox{
 	display: none;
@@ -693,7 +694,7 @@ aside{
 	color: #fff;
 }
 .navigation ul{
-	width: 25%;
+	width: 26%;
 	margin: 30px auto 80px auto;
 }
 .navigation li, .navigation span{
@@ -760,7 +761,6 @@ aside{
 
 /*PRODUCT*/
 .breadcrumb-product{
-	width: 100%;
 	margin: 25px 20px 30px 30px;
 }
 .flex-between{
@@ -784,7 +784,7 @@ aside{
 	max-width: 410px;
 	position: absolute;
 	left: -2px;
-	top: 615px;
+	bottom: -160px;
 }
 .slider-nav_item{
 	margin: 3px;
@@ -868,9 +868,6 @@ aside{
 }
 .product-data{
 	width: 60%;
-}
-.price-edit{
-	/*margin-left: 10px;*/
 }
 .price-edit p{
 	display: block;

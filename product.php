@@ -102,8 +102,7 @@ include('parts/header.php');
 						<i class="fa fa-angle-double-left" aria-hidden="true"></i>
 						<span class="product-quantity"> 6 </span>
 						<a href="#">
-							<i class="fa fa-angle-double-right" aria-hidden="true"></i>
-						</a>
+							<i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
 						= 
 						<span class="total-price"> 72 </span>
 						<a href="#">

@@ -2,7 +2,7 @@
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1250px) {
 	.menu-left a, header .phone{
-		font-size: 17px;
+		font-size: 16px;
 	}
 	.logo img{
 		width: 150px;
@@ -57,12 +57,24 @@
 	}
 	.slider-product-nav{
 		max-width: 310px;
-		top: 560px;
+		bottom: -130px;
+	}
+	.product-filters{
+		width: 30%;
 	}
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
+	.col-md-5{
+		padding: 5px;
+	}.col-md-3{
+		padding-left: 5px;
+	}
+
+	.menu-scrol{
+		padding: 5px;
+	}
 	.menu-left a, header .phone{
 		font-size: 14px;
 		padding: 25px 4px;
@@ -101,7 +113,7 @@
 		margin-bottom: 20px;
 	}
 	#breadcrumb {
-	  margin-top: -20px;
+	  margin-top: -10px;
 	  margin-bottom: 10px;
 	}
 	.product-info{
@@ -136,7 +148,10 @@
 	}
 	.slider-product-nav{
 		max-width: 290px;
-		top: 440px;
+		bottom: -60px;
+	}
+	.table-filters{
+		min-width: 200px;
 	}
 }
 
@@ -147,6 +162,9 @@
 	}
 	.header-mobile{
 		display: block;	
+	}
+	.logo-mobile{
+		padding-left: 10px;
 	}
 	.category .category-time{
 		margin-left: 10px;
@@ -222,8 +240,8 @@
 	}
 	.slider-product-nav {
 	    max-width: 410px;
-	    top: 675px;
-	    left: 25%;
+	    bottom: -160px;
+	    left: 22%;
 	    position: absolute;
 	}
 	.slider-product{
@@ -244,6 +262,9 @@
 	}
 	.table-filters{
 		margin: 0 auto;
+	}
+	.product-filters{
+		width: 100%;
 	}
 	.product-data{
 		width: 100%;
@@ -283,6 +304,9 @@
 		width: 100%;
 		margin: 20px 0px 10px 0;
 		text-align: center;
+	}
+	.breadcrumb-product{
+		margin: 5px;
 	}
 	aside{
 		padding-right: 20px;
@@ -374,8 +398,7 @@
 	  margin-bottom: 10px;
 	}
 	.slider-product-nav {
-	    left: 13%;
-	    position: absolute;
+	    left: 12%;
 	}
 	.product-price{
 		width: inherit;
@@ -406,13 +429,26 @@
 	    width: 80%;
 	    margin: 5px;
 	}
-	.product-foto{
-
-	}
 	body{
 		margin-top: 90px;
 	}
-	main{
+	.slider-product-nav{
+		bottom: -160px;
+		left: 0px;
 	}
-}
-
+	.product-filters{
+		width: 100%;
+	}
+	.price-edit p{
+		margin-right: 0;
+	}
+	.product-data .ruler{
+		margin-top: 10px;
+	}
+	.product-buy{
+		padding: 5px;
+		float: none;
+	}
+	.product-description{
+		width: 115%;
+	}
