@@ -123,8 +123,8 @@ include('parts/header.php');
 								<article class="tab-1">
 									<table>
 										<tr>
-											<th>МЕЖДУНАРОДНЫЕ</th>
-											<th>ДЖИНСОВЫЕ</th> 
+											<th>МИР</th>
+											<th>ДЖИНС</th> 
 											<th>БЕДРА</th>
 											<th>ТАЛИЯ | ПОЯС</th>
 											<th>ЕВРО</th>
@@ -210,8 +210,8 @@ include('parts/header.php');
 								<article class="tab-2">
 									<table>
 										<tr>
-											<th>МЕЖДУНАРОДНЫЕ</th>
-											<th>ДЖИНСОВЫЕ</th> 
+											<th>МИР</th>
+											<th>ДЖИНС</th> 
 											<th>БЕДРА</th>
 											<th>ТАЛИЯ | ПОЯС</th>
 											<th>ЕВРО</th>

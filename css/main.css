@@ -982,6 +982,10 @@ aside{
 	font-size: 90px;
 	font-weight: bold;
 	cursor: pointer;
+	opacity: 1;
+}
+.product-data .close:hover{
+	color: #000;
 }
 .modal input{
 	display: none;

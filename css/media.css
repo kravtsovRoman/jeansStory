@@ -287,6 +287,9 @@
 	.product-description{
 		width: 100%;
 	}
+	.ruler-content article{
+		padding: 0;
+	}
 
 }
 
@@ -406,6 +409,15 @@
 	.table-filters{
 		min-width: 260px;
 	}
+	.product-data .modal-text{
+		width: 90%;
+		top: 10%;
+		left: 50%;
+	}
+	.ruler-content article{
+		width: inherit;
+		font-size: 0.8em;
+	}
 }
 
 @media only screen and (max-width : 400px) {
@@ -452,3 +464,30 @@
 	.product-description{
 		width: 115%;
 	}
+	.product-data .modal-text{
+		width: 100%;
+		top: 10%;
+	}
+	.modal h3{
+		font-size: 1.5em;
+	}
+	.product-data .close{
+		top: -20px;
+		right: 0;
+		font-size: 65px;
+	}
+	.modal label{
+		padding: 0 10px;
+		font-size: 1.3em;
+	}
+	.ruler-content article{
+		width: 100%;
+		font-size: 0.7em;
+		border: none;
+		border-top: 2px solid #178AE5;
+	}
+	.ruler-content article table td, 
+	.ruler-content article table th{
+		padding: 3px;
+	}
+
