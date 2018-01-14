@@ -55,8 +55,8 @@
 				<li>Вт</li>
 				<li>Ср</li>
 				<li>Чт</li>
-				<li>Пт</li>
 				<li>Сб</li>
+				<li>Вс</li>
 			</ul>
 		</div>
 	</footer>

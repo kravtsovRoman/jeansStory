@@ -21,7 +21,7 @@
 			<div class="container-fluid" >
 				<div class="row">
 					<div class="menu-left col-md-5 col-xs-12">
-						<a href="#">Контакты</a>
+						<a href="contacts.php">Контакты</a>
 						<a href="#">Доставка и Оплата</a>
 						<a href="#">FAQ</a>
 						<a href="#">Новости</a>
