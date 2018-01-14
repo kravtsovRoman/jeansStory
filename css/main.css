@@ -1271,3 +1271,62 @@ input[id="tab-2"]:checked ~ .ruler-content .tab-2{
   vertical-align: top;
   font-size: .4em;
 }
+
+
+/*FAQ*/ 
+
+.faq-wrap .order,
+.faq-wrap .payment,
+.faq-wrap .delivery{
+	width: 30%;
+	margin: 0 20px;
+	padding: 10px;
+	float: left;
+}
+.faq-wrap h2,
+.faq-wrap h3{
+	font-family: Politica, sans-serif;
+	font-weight: bold;
+}
+.faq-wrap h2{
+	padding: 0 30px;
+}
+.faq-wrap .icon:before{
+	width: 50px;
+	height: 50px;
+	margin: 0 5px;
+	content: '';
+	background-image: url(../img/faq.png);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	left: 0px;
+	top: 10px;
+	position: relative;
+	display: inline-block;
+}
+.faq-wrap .order-icon:before{
+	background-position: -52px -1px;
+}
+.faq-wrap .payment-icon:before{
+	background-position: -105px 10px;
+}
+.faq-wrap .delivery-icon:before{
+	background-position: 0 4px;
+}
+.faq-wrap .filter-body{
+	padding-left: 40px;
+	padding-bottom: 10px;
+	display: none;
+}
+.faq-wrap .filter-header{
+	font-family: RobotoRegular;
+	font-size: 1.2em;
+	margin-bottom: 5px;
+}
+.faq-wrap .filter-header:hover{
+	color: #178AE5;
+}
+.faq-wrap li{
+	list-style-type: none;
+	border-bottom: 1px solid #ccc;
+}
