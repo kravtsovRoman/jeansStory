@@ -1112,6 +1112,8 @@ input[id="tab-2"]:checked ~ .ruler-content .tab-2{
 .contacts-wrap .time-work {
 	font-size: 1.8em;
 }
+
+
 /*Clock*/
 .wrapper-clock ul {
   padding: 0;

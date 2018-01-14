@@ -15,7 +15,7 @@ include('parts/header.php');
 	<li class="current">
 		<a href="#">Мужские джинсы</a>
 	</li>
-	<li class="current">
+	<li class="current long-text">
 		<a href="#">6102 CARACAJ СИНИЕ (25-30, 6 ЕД.) ДЖИНСЫ ЖЕНСКИЕ УЗКИЕ ТЕРКА ДЕМИСЕЗОННЫЕ СТРЕЙЧ</a>
 	</li>
 </ol>

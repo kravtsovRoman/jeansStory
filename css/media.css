@@ -52,7 +52,7 @@
 	footer {
     	padding: 0;
 	}
-	#breadcrumb li:last-child {
+	.long-text {
 	  display: none;
 	}
 	.slider-product-nav{
@@ -152,6 +152,10 @@
 	}
 	.table-filters{
 		min-width: 200px;
+	}
+	.contacts-wrap p, 
+	.contacts-wrap a{
+		font-size: 1em;
 	}
 }
 
@@ -290,7 +294,10 @@
 	.ruler-content article{
 		padding: 0;
 	}
-
+	.contacts-wrap, 
+	.contacts-wrap .write-us a{
+		text-align: center;
+	}
 }
 
 @media only screen and (max-width : 576px) {
@@ -418,6 +425,14 @@
 		width: inherit;
 		font-size: 0.8em;
 	}
+	.wrapper-clock{
+		display: none;
+	}
+	.phones,
+	.schedule,
+	.write-us{
+		margin-bottom: 30px;
+	}
 }
 
 @media only screen and (max-width : 400px) {
@@ -490,4 +505,7 @@
 	.ruler-content article table th{
 		padding: 3px;
 	}
-
+	.breadcrumb-wrap{
+		height: 50px;
+	}
+}

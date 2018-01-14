@@ -78,7 +78,7 @@
             </ul>
     </div>
 	<div class="contacts-wrap">
-		<div>
+		<div class="phones">
 			<h3>Контактные телеофны</h3>
 			<p class="icon kievstar"> 097 654 24 67</p>
 			<p class="icon life"> 063 528 24 98</p>
@@ -114,7 +114,6 @@
 			<a href="#" class="icon telegram">
 				Telegram
 			</a>
-			
 		</div>
 	</div>
 
