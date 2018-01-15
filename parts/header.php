@@ -22,7 +22,7 @@
 				<div class="row">
 					<div class="menu-left col-md-5 col-xs-12">
 						<a href="contacts.php">Контакты</a>
-						<a href="#">Доставка и Оплата</a>
+						<a href="delivery.php">Доставка и Оплата</a>
 						<a href="faq.php">FAQ</a>
 						<a href="#">Новости</a>
 						<a href="catalog.php">Каталог</a>
