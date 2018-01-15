@@ -62,6 +62,12 @@
 	.product-filters{
 		width: 30%;
 	}
+	.faq-wrap .order,
+	.faq-wrap .payment,
+	.faq-wrap .delivery{
+		margin: 0 10px;
+		padding: 0;
+	}
 }
 
 /* Medium Devices, Desktops */
@@ -298,6 +304,18 @@
 	.contacts-wrap .write-us a{
 		text-align: center;
 	}
+	.faq-wrap .order,
+	.faq-wrap .payment,
+	.faq-wrap .delivery{
+		width: 100%;
+		text-align: center;
+	}
+	.breadcrumb-wrap{
+		height: 40px;
+	}
+	.faq-wrap .delivery:last-child{
+		margin-bottom: 30px;
+	}
 }
 
 @media only screen and (max-width : 576px) {
@@ -329,7 +347,7 @@
 	}
 	.filter-button, .stock2{
 	display: block;
-}
+	}
 	.category-list li span,
 	.stock, 
 	.footer-info, 
