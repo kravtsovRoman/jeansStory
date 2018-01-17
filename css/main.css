@@ -1427,3 +1427,217 @@ input[id="tab-2"]:checked ~ .ruler-content .tab-2{
 	font-size: 0.9em;
 	margin-bottom: 50px;
 }
+.payments{
+	background: url(../img/bg2-delivery.jpg);
+	background-position: 0 0;
+	color: #fff;
+	text-align: center;
+}
+.payments-box-title{
+	font-family: Politica; 
+	font-size: 2em;
+	padding-top: 50px;
+	margin-bottom: 30px;
+	font-weight: bold;
+}
+.payments p, 
+.delivery p{
+	font-size: 1.2em;
+}
+.payments .wrap, 
+.delivery .wrap {
+	justify-content: space-around;
+	margin-bottom: 20px;
+}
+.payments .wrap div{
+	width: 25%;
+	margin: 50px 0 70px 0;
+	background: rgba(180, 180, 180, .5);
+	padding: 40px 60px;
+	text-align: left;
+	text-align: center;
+	cursor: pointer;
+	transition: .2s;
+}
+.payments .wrap div:hover{
+	background: #178AE5;
+	outline: 3px solid #fff;
+}
+.payments-icon i{
+	margin-top: 30px;
+	font-size: 4em;
+}
+.delivery{
+	text-align: center;
+	margin-bottom: 50px;
+}
+.delivery h4{
+	margin-top: 50px;
+	font-family: Politica, sans-serif;
+}
+.delivery .delivery-box{
+	width: 28%;
+	margin: 0 0;
+	padding: 40px 60px;
+	cursor: pointer;
+	transition: .2s;
+}
+.delivery .delivery-box:hover{
+	outline: 3px solid #178AE5;
+}
+.delivery .wrap span{
+	color: #fff;
+	font-size: 2em;
+	font-weight: bold;
+}
+.delivery .bg{
+	-moz-background-size: cover; 
+    -webkit-background-size: cover; 
+    -o-background-size: cover;
+}
+.delivery .nova{
+	background-image: url(../img/delivery/nova.jpg);
+}
+.delivery .intaim{
+	background-image: url(../img/delivery/intaim.jpg);
+}
+.delivery .pickup{
+	background-image: url(../img/delivery/pickup.jpg);
+}
+.delivery .express{
+	background-image: url(../img/delivery/express.jpg);
+}
+.delivery .ems{
+	background-image: url(../img/delivery/ems.jpg);
+}
+.delivery .dimex{
+	background-image: url(../img/delivery/dimex.jpg);
+}
+.delivery .pochta{
+	background-image: url(../img/delivery/pochta.jpg);
+}
+.delivery .train{
+	background-image: url(../img/delivery/train.jpg);
+}
+.delivery .bus{
+	background-image: url(../img/delivery/bus.jpg);
+}
+.return{
+	margin-bottom: -50px;
+	color: #fff;
+	text-align: center;
+	height: 700px;
+	background-image: url(../img/bg3-delivery.jpg);
+}
+.return-box{
+	margin-left: 30px;
+	background: rgba(100, 100, 100, .5);
+	margin-top: 30px;
+	max-width: 700px;
+	font-size: 1.2em;
+	overflow: hidden;
+	line-height: 1.7;
+}
+.return-box2{
+	margin-left: 80px;
+}
+.return-box3{
+	margin-left: 130px;
+}
+.return-icon{
+	font-size: 2em;
+	padding: 15px 25px;
+	float: left;
+	background: #178AE5;
+	padding: 
+}
+.return-box p{
+	padding: 10px 10px 10px 130px;
+	text-align: left;
+}
+
+.delivery-ukraine .modal-ukraine,
+.payments .modal-payment,
+.delivery-another .modal-country{
+	display: none;
+	text-align: left;
+	color: #000;
+	position: fixed;
+	z-index: 999;
+	left: 50%;
+	top: 3%;
+	padding: 20px 40px;
+	transform: translateX(-50%);
+	width: 80%;
+	background: #fff;
+	border: 3px solid #ddd;
+}
+.delivery-ukraine .modal-ukraine span, 
+.payments .modal-payment span,
+.delivery-another .modal-country span{
+	position: absolute;
+	right: 0px;
+	top: -10px;
+	font-size: 3em;
+	color: #178AE5 !important;
+	opacity: 1;
+	cursor: pointer;
+}
+.delivery-ukraine .modal-ukraine h3, 
+.payments .modal-payment h3,
+.delivery-another .modal-country h3{
+	font-family: Politica;
+	background: #eee;
+	padding: 10px 0px;
+	margin: 20px auto;
+	position: relative;
+	border-radius: 3px;
+	text-align: center;
+}
+.modal-payment ul{
+	margin-left: 50px;
+}
+.modal-ukraine p, 
+.modal-ukraine li,
+.modal-payment p,
+.modal-country p,
+.modal-payment li{
+	font-size: 0.9em;
+	font-family: RobotoRegular;
+}
+.modal-ukraine .plus, 
+.modal-ukraine .minus{
+	margin-top: 20px;
+	width: 50%;
+	float: left;
+}
+.modal-ukraine .plus h5, 
+.modal-ukraine .minus h5{
+	font-family: Politica;
+	color: #178AE5;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+.modal-payment table, 
+.modal-country table{
+	width: 100%;
+	text-align: center;
+	margin-top: 10px;
+	font-family: RobotoRegular;
+}
+.modal-country table{
+	text-align: left;
+}
+.modal-payment th, 
+.modal-country th{
+	border-bottom: 1px solid #178AE5;
+}
+.modal-payment td:first-child, 
+.modal-payment th:first-child{
+	text-align: left;
+}
+.modal-payment td, 
+.modal-country td{
+	padding: 10px;
+	border-bottom: 1px solid #ddd;
+}

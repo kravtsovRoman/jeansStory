@@ -127,11 +127,33 @@ $(document).ready(function(){
   });
 });
 
-// Модальное окно - Таблица размеров
-		//Открытие
+// Модальное окно 
+//Открытие
+		//Таблица размеров
 $(document).ready(function(){
 	$('#ruler').on('click', function(){
 		$('#myModal').fadeIn();
+	})
+});
+
+		//Оплата
+$(document).ready(function(){
+	$('.payments-modal').on('click', function(){
+		$('.modal-payment').fadeIn();
+	})
+});
+
+		//Доставка Украина
+$(document).ready(function(){
+	$('.ukraine-modal').on('click', function(){
+		$('.modal-ukraine').fadeIn();
+	})
+});
+		//Доставка Другие страны
+$(document).ready(function(){
+	$('.delivery-box-country').on('click', function(){
+		console.log($('.delivery-box-country').next());
+		$('.delivery-box-country').next().fadeIn();
 	})
 });
 
@@ -139,6 +161,9 @@ $(document).ready(function(){
 $(document).ready(function(){
 		$('.close').on('click', function(){
 		$('#myModal').fadeOut();
+		$('.modal-ukraine').fadeOut();
+		$('.modal-payment').fadeOut();
+		$('.modal-country').fadeOut();
 	})
 });
 
@@ -250,3 +275,5 @@ function change_color_by_style(){
 		color_step = 0;
 	}
 }
+
+
