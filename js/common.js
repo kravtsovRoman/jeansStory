@@ -127,7 +127,7 @@ $(document).ready(function(){
   });
 });
 
-// Модальное окно 
+// Модальные окна 
 //Открытие
 		//Таблица размеров
 $(document).ready(function(){
@@ -135,44 +135,57 @@ $(document).ready(function(){
 		$('#myModal').fadeIn();
 	})
 });
-
 		//Оплата
 $(document).ready(function(){
 	$('.payments-modal').on('click', function(){
+		close();
 		$('.modal-payment').fadeIn();
 	})
 });
-
 		//Доставка Украина
 $(document).ready(function(){
 	$('.ukraine-modal').on('click', function(){
+		close();
 		$('.modal-ukraine').fadeIn();
 	})
 });
-		//Доставка Другие страны
+		//Доставка в Другие страны
 $(document).ready(function(){
-	$('.delivery-box-country').on('click', function(){
-		console.log($('.delivery-box-country').next());
-		$('.delivery-box-country').next().fadeIn();
+	$('.delivery-box-country').click(function(event){
+		close();
+		if (event.target.localName == 'span') {
+			event.currentTarget.children[0].style.display = "block";
+		}else{
+			event.target.children[0].style.display = "block";
+		}
 	})
 });
-
 		//Закрытие - клик по крестику
-$(document).ready(function(){
-		$('.close').on('click', function(){
-		$('#myModal').fadeOut();
-		$('.modal-ukraine').fadeOut();
-		$('.modal-payment').fadeOut();
-		$('.modal-country').fadeOut();
-	})
-});
+$('.close').on('click', function(){
+		close();
+	});
 
-		//Закрытие - клик вне окна
+var close = function(){
+		$('#myModal').fadeOut();
+		$('.modal-box').fadeOut();
+	}
+
+		//Закрытие - клик вне окна Product
 $(document).ready(function(){
 	$(window).on('click', function(event){
 		var modal = document.getElementById("myModal");
 		if(event.target == modal){
 			$('#myModal').fadeOut();
+		}
+	})
+});
+
+		//Закрытие всех окон при клике вне окна - Delivery
+$(document).ready(function(){
+	$(window).mouseup(function (e){
+		var block = $(".modal-box");
+		if (!block.is(e.target) && block.has(e.target).length === 0){
+			$('.modal-box').fadeOut();
 		}
 	})
 });

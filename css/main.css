@@ -1487,7 +1487,7 @@ input[id="tab-2"]:checked ~ .ruler-content .tab-2{
 .delivery .delivery-box:hover{
 	outline: 3px solid #178AE5;
 }
-.delivery .wrap span{
+.delivery span{
 	color: #fff;
 	font-size: 2em;
 	font-weight: bold;
@@ -1557,10 +1557,7 @@ input[id="tab-2"]:checked ~ .ruler-content .tab-2{
 	padding: 10px 10px 10px 130px;
 	text-align: left;
 }
-
-.delivery-ukraine .modal-ukraine,
-.payments .modal-payment,
-.delivery-another .modal-country{
+.modal-box{
 	display: none;
 	text-align: left;
 	color: #000;
@@ -1574,9 +1571,7 @@ input[id="tab-2"]:checked ~ .ruler-content .tab-2{
 	background: #fff;
 	border: 3px solid #ddd;
 }
-.delivery-ukraine .modal-ukraine span, 
-.payments .modal-payment span,
-.delivery-another .modal-country span{
+.modal-box .close{
 	position: absolute;
 	right: 0px;
 	top: -10px;
@@ -1585,9 +1580,7 @@ input[id="tab-2"]:checked ~ .ruler-content .tab-2{
 	opacity: 1;
 	cursor: pointer;
 }
-.delivery-ukraine .modal-ukraine h3, 
-.payments .modal-payment h3,
-.delivery-another .modal-country h3{
+.modal-box h3{
 	font-family: Politica;
 	background: #eee;
 	padding: 10px 0px;
@@ -1596,50 +1589,41 @@ input[id="tab-2"]:checked ~ .ruler-content .tab-2{
 	border-radius: 3px;
 	text-align: center;
 }
-.modal-payment ul{
+.modal-box ul{
 	margin-left: 50px;
 }
-.modal-ukraine p, 
-.modal-ukraine li,
-.modal-payment p,
-.modal-country p,
-.modal-payment li{
+.modal-box p,
+.modal-box li{
 	font-size: 0.9em;
 	font-family: RobotoRegular;
 }
-.modal-ukraine .plus, 
-.modal-ukraine .minus{
+.modal-box .plus, 
+.modal-box .minus{
 	margin-top: 20px;
 	width: 50%;
 	float: left;
 }
-.modal-ukraine .plus h5, 
-.modal-ukraine .minus h5{
+.modal-box .plus h5, 
+.modal-box .minus h5{
 	font-family: Politica;
 	color: #178AE5;
 	font-weight: bold;
 	font-size: 1.2em;
 }
-.modal-payment table, 
-.modal-country table{
+.modal-box table{
 	width: 100%;
 	text-align: center;
 	margin-top: 10px;
 	font-family: RobotoRegular;
 }
-.modal-country table{
-	text-align: left;
-}
-.modal-payment th, 
-.modal-country th{
+.modal-box th{
 	border-bottom: 1px solid #178AE5;
 }
-.modal-payment td:first-child, 
-.modal-payment th:first-child{
+.modal-box td:first-child, 
+.modal-box th:first-child{
 	text-align: left;
 }
-.modal-payment td, 
-.modal-country td{
+.modal-box td{
 	padding: 10px;
 	border-bottom: 1px solid #ddd;
 }

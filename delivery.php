@@ -44,7 +44,7 @@ include('parts/header.php');
 	</div>
 </div>
 <div class="payments">
-	<!-- <div class="modal-payment">
+	<div class="modal-box modal-payment">
 		<span class="close">&times;</span>
 		<h3>УКРАИНА. КАРТА ПРИВАТ БАНКА</h3>
 		<ul>
@@ -94,7 +94,7 @@ include('parts/header.php');
 				<td>до 5000$ от одного платежа</td>
 			</tr>
 		</table>
-	</div> -->
+	</div>
 	<!-- modal-payment -->
 	<h3 class="payments-box-title">Способы оплаты</h3>
 	<p>
@@ -148,7 +148,7 @@ include('parts/header.php');
 		Наши посылки попадают заказчикам гарантированно в срок, в целости и сохранности.
 	</p>
 	<div class="delivery-ukraine">
-		<!-- <div class="modal-ukraine" id="ukraine">
+		<div class="modal-ukraine modal-box">
 			<span class="close">&times;</span>
 			<h3>Новая почта</h3>
 
@@ -205,7 +205,7 @@ include('parts/header.php');
 				</ul>
 			</div>
 			<div class="clear"></div>
-		</div> -->
+		</div>
 		<!-- modal-ukraine -->
 		<h4>
 			Украина:
@@ -228,115 +228,192 @@ include('parts/header.php');
 		</h4>
 		<div class="wrap">
 			<div class="express bg delivery-box delivery-box-country">
+				<div class="modal-country modal-box">
+					<span class="close">&times;</span>
+					<h3>ЭКСПРЕСС-ДОСТАВКА</h3>
+					<p>
+						Самый быстрый и надежный способ доставки.
+					</p>
+					<p>
+						Доставка в Россию осуществляется нашим курьером до города Белгород, далее груз передается на выбранную Вами транспортную компанию.
+					</p>
+					<table>
+						<tr>
+							<th>КОМПАНИЯ</th>
+							<th>ВРЕМЯ ДОСТАВКИ</th> 
+							<th>ОФИЦИАЛЬНЫЙ САЙТ</th>
+						</tr>
+						<tr>
+							<td>ПЭК</td>
+							<td>от 2-х дней</td> 
+							<td>
+								<a href="http://pecom.ru/ru">
+									http://pecom.ru/ru					
+								</a>
+							</td>
+						</tr>
+						<tr>
+							<td>Деловые линии</td>
+							<td>от 2х дней</td> 
+							<td>
+								<a href="http://www.dellin.ru/">http://www.dellin.ru
+								</a>
+							</td>
+						</tr>
+						<tr>
+							<td>КСЕ</td>
+							<td>от 1-го дня</td> 
+							<td>
+								<a href="http://www.cse.ru/">http://www.cse.ru/
+								</a>
+							</td>
+						</tr>
+						<tr>
+							<td>Байкал Сервис</td>
+							<td>от 1-го дня</td> 
+							<td>
+								<a href="http://www.baikalsr.ru/">http://www.baikalsr.ru/
+								</a>
+							</td>
+						</tr>
+						<tr>
+							<td>СДЕК АВИА</td>
+							<td>от 1-го дня</td> 
+							<td>
+								<a href="http://www.edostavka.ru/">http://www.edostavka.ru/
+								</a>
+							</td>
+						</tr>
+						<tr>
+							<td>ЖелДорЭкспедиция</td>
+							<td>от 1-го дня</td> 
+							<td>
+								<a href="http://www.jde.ru/">http://www.jde.ru/
+								</a>
+							</td>
+						</tr>
+						<tr>
+							<td>Почта России</td>
+							<td>2 - 30 дней</td> 
+							<td>
+								<a href="http://www.russianpost.ru/">http://www.russianpost.ru/
+								</a>
+							</td>
+						</tr>
+					</table>
+					<div class="product-number">
+						<p>Для уточнения информации звоните по телефону</p>
+						<a href="tel:08004567890" class="phone menu-scrol"> 0 800 456 78 90 </a>
+					</div>
+				</div>
 				<span>Экспресс доставка</span>
-			</div>
-			<div class="modal-country modal-express">
-				<span class="close">&times;</span>
-				<h3>ЭКСПРЕСС-ДОСТАВКА</h3>
-				<p>
-					Самый быстрый и надежный способ доставки
-				</p>
-				<p>
-					Доставка в Россию осуществляется нашим курьером до города Белгород, далее груз передается на выбранную Вами транспортную компанию.
-				</p>
-				<table>
-					<tr>
-						<th>КОМПАНИЯ</th>
-						<th>ВРЕМЯ ДОСТАВКИ</th> 
-						<th>ОФИЦИАЛЬНЫЙ САЙТ</th>
-					</tr>
-					<tr>
-						<td>ПЭК</td>
-						<td>от 2-х дней</td> 
-						<td>
-							<a href="http://pecom.ru/ru">
-								http://pecom.ru/ru					
-							</a>
-						</td>
-					</tr>
-					<tr>
-						<td>Деловые линии</td>
-						<td>от 2х дней</td> 
-						<td>
-							<a href="http://www.dellin.ru/">http://www.dellin.ru
-							</a>
-						</td>
-					</tr>
-					<tr>
-						<td>КСЕ</td>
-						<td>от 1-го дня</td> 
-						<td>
-							<a href="http://www.cse.ru/">http://www.cse.ru/
-							</a>
-						</td>
-					</tr>
-					<tr>
-						<td>Байкал Сервис</td>
-						<td>от 1-го дня</td> 
-						<td>
-							<a href="http://www.baikalsr.ru/">http://www.baikalsr.ru/
-							</a>
-						</td>
-					</tr>
-					<tr>
-						<td>СДЕК АВИА</td>
-						<td>от 1-го дня</td> 
-						<td>
-							<a href="http://www.edostavka.ru/">http://www.edostavka.ru/
-							</a>
-						</td>
-					</tr>
-					<tr>
-						<td>ЖелДорЭкспедиция</td>
-						<td>от 1-го дня</td> 
-						<td>
-							<a href="http://www.jde.ru/">http://www.jde.ru/
-							</a>
-						</td>
-					</tr>
-					<tr>
-						<td>Почта России</td>
-						<td>2 - 30 дней</td> 
-						<td>
-							<a href="http://www.russianpost.ru/">http://www.russianpost.ru/
-							</a>
-						</td>
-					</tr>
-				</table>
 			</div>
 			<!-- modal -->
 			<div class="ems bg delivery-box delivery-box-country">
+				<div class="modal-country modal-box">
+					<span class="close">&times;</span>
+					<h3>EMS</h3>
+					<p>
+						<a href="http://www.emsukraine.com.ua/">
+							http://www.emsukraine.com.ua/
+						</a>
+						<br/>
+					</p>
+					<p>
+						Сроки доставки - от 7 до 14 дней, в зависимости от скорости прохождения таможни. Стоимость доставки включена в счет. Доставка курьером до двери.
+					</p>
+					<p>
+						Стоимость доставки 40 долларов за первый кг., и по 6 долларов за каждый последующий кг. Также к стоимости доставки EMS будет прибавлена сумма 3 доллара за упаковку посылки. Пользоваться услугами компании выгодно при отправке посылок 10-15 кг.
+					</p>
+					<div class="product-number">
+						<p>Для уточнения информации звоните по телефону</p>
+						<a href="tel:08004567890" class="phone menu-scrol"> 0 800 456 78 90 </a>
+					</div>
+				</div>
+
 				<span>EMS</span>
 			</div>
-			<div class="modal-country">
-				<span class="close">&times;</span>
-				<h3>EMS</h3>
-				<p>
-					<a href="http://www.emsukraine.com.ua/">
-						http://www.emsukraine.com.ua/
-					</a>
-					<br/>
-				</p>
-				<p>
-					Сроки доставки - от 7 до 14 дней, в зависимости от скорости прохождения таможни. Стоимость доставки включена в счет. Доставка курьером до двери.
-				</p>
-				<p>
-					Стоимость доставки 40 долларов за первый кг., и по 6 долларов за каждый последующий кг. Также к стоимости доставки EMS будет прибавлена сумма 3 доллара за упаковку посылки. Пользоваться услугами компании выгодно при отправке посылок 10-15 кг.
-				</p>
-			</div>
-			<!-- modal -->
+			
 			<div class="dimex bg delivery-box delivery-box-country">
+				<div class="modal-country modal-box">
+					<span class="close">&times;</span>
+					<h3>DIMEX</h3>
+					<p>
+						<a href="http://www.dimex.ws/">
+							http://www.dimex.ws/
+						</a>
+						<br/>
+					</p>
+					<p>
+						Dimex — компания нового уровня с хорошим сервисомСроки доставки - от 3-х дней, в зависимости от скорости прохождения таможни.
+					</p>
+					<p>
+						Пользоваться услугами компании выгодно при отправке посылок 10-15 кг. Стоимость перевозки зависит от Вашего местоположения. Рассчитывается нашими менеджерами вручную. Возможна оплата доставки при получении (необходимо уточнять у перевозчика).
+					</p>
+					<div class="product-number">
+						<p>Для уточнения информации звоните по телефону</p>
+						<a href="tel:08004567890" class="phone menu-scrol"> 0 800 456 78 90 </a>
+					</div>
+				</div>
 				<span>DIMEX</span>
 			</div>
 		</div>
 		<div class="wrap">
 			<div class="pochta bg delivery-box delivery-box-country">
+				<div class="modal-country modal-box">
+					<span class="close">&times;</span>
+					<h3>ДОСТАВКА ПОЧТОЙ РОССИИ</h3>
+					<p>
+						Почта России, как отдельный вид доставки подойдет клиентам, в городах которых нет представительств других компаний перевозчиков.Стоимость доставки 20 долларов за первый килограмм и по 2 доллара за каждый последующий.
+					</p>
+					<p>
+						Стоимость доставки включена в счет. 
+					</p>
+					<div class="product-number">
+						<p>Для уточнения информации звоните по телефону</p>
+						<a href="tel:08004567890" class="phone menu-scrol"> 0 800 456 78 90 </a>
+					</div>
+				</div>
 				<span>Доставка почтой</span>
 			</div>
 			<div class="train bg delivery-box delivery-box-country">
+				<div class="modal-country modal-box">
+					<span class="close">&times;</span>
+					<h3>ДОСТАВКА ПОЕЗДОМ</h3>
+					<p>
+						<a href="http://poezdato.net/raspisanie-po-stancyi/odessa-glavnaya/">
+							http://poezdato.net/raspisanie-po-stancyi/odessa-glavnaya/
+						</a>
+						<br/>
+					</p>
+					<p>
+						Сроки доставки - 1 день после сбора заказа. Доставка осуществляется по направлению Одесса-Москва. Доставка оплачивается проводнику при получении груза - от 3 у.е. за каждую единицу.
+					</p>
+					<div class="product-number">
+						<p>Для уточнения информации звоните по телефону</p>
+						<a href="tel:08004567890" class="phone menu-scrol"> 0 800 456 78 90 </a>
+					</div>
+				</div>
 				<span>Доставка поездом</span>
 			</div>
 			<div class="bus bg delivery-box delivery-box-country">
+				<div class="modal-country modal-box">
+					<span class="close">&times;</span>
+					<h3>ДОСТАВКА АВТОБУСОМ</h3>
+					<p>
+						<a href="http://poezdato.net/raspisanie-po-stancyi/odessa-glavnaya/">
+							http://poezdato.net/raspisanie-po-stancyi/odessa-glavnaya/
+						</a>
+						<br/>
+					</p>
+					<p>
+						Сроки доставки - 1 день после сбора заказа. Доставка осуществляется по направлению Одесса-Москва. Доставка оплачивается проводнику при получении груза - от 3 у.е. за каждую единицу.
+					</p>
+					<div class="product-number">
+						<p>Для уточнения информации звоните по телефону</p>
+						<a href="tel:08004567890" class="phone menu-scrol"> 0 800 456 78 90 </a>
+					</div>
+				</div>
 				<span>Доставка автобусом</span>
 			</div>
 		</div>
@@ -382,5 +459,5 @@ include('parts/header.php');
 </div>
 
 <?php
-include('parts/footer.php');
+	include('parts/footer.php');
 ?>
