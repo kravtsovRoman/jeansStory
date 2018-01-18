@@ -319,6 +319,7 @@ header .phone{
 .all-catalog:hover, .yet-tovar:hover{
 	background: #178AE5;
 	cursor: pointer;
+	text-decoration: none;
 }
 .all-catalog:hover h5, .yet-tovar h5{
 	color: #fff;
@@ -1282,6 +1283,7 @@ input[id="tab-2"]:checked ~ .ruler-content .tab-2{
 	margin: 0 20px;
 	padding: 10px;
 	float: left;
+	text-align: left;
 }
 .faq-wrap h2,
 .faq-wrap h3{

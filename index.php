@@ -176,11 +176,10 @@
 				<a href="#" class="box sale"></a>
 				<a  href="#" class="box new"></a>
 			</div>
-			<div class="all-catalog">
+			<a href="catalog.php" class="all-catalog">
 				<h5>Смотреть весь каталог</h5>
-			</div>
+			</a>
 		</div>
-
 <?php
 	include('parts/footer.php');
 ?>
