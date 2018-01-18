@@ -1,6 +1,7 @@
 <?php
-include('parts/header.php');
+	include('parts/header.php');
 ?>
+
 <div class="margin"></div>
 <div class="title-img">
 	<h2 class="title-text">Все о доставке и оплате</h2>
@@ -135,7 +136,6 @@ include('parts/header.php');
 			</span>
 		</div>
 	</div>
-
 </div>
 <div class="delivery">
 	<h3 class="payments-box-title">
@@ -332,8 +332,7 @@ include('parts/header.php');
 				</div>
 
 				<span>EMS</span>
-			</div>
-			
+			</div>	
 			<div class="dimex bg delivery-box delivery-box-country">
 				<div class="modal-country modal-box">
 					<span class="close">&times;</span>
