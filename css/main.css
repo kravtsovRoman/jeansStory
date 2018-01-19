@@ -112,6 +112,7 @@ header .phone{
 	float: left;
 	margin-left: 25px;
 	transition: 1s all;
+	position: relative;
 }
 .fa-shopping-cart{
 	font-size: 40px;
@@ -119,6 +120,16 @@ header .phone{
 }
 .fa-shopping-cart:hover{
 	color: #178AE5;
+}
+.cart span{
+	background: #178AE5;
+	border-radius: 50%;
+	padding: 0px 6px;
+	color: #fff;
+	position: absolute;
+	bottom: 22%;
+	right: -40%;
+	font-size: 0.8em;
 }
 .menu-up{
 	width: 100%;
@@ -1626,4 +1637,209 @@ input[id="tab-2"]:checked ~ .ruler-content .tab-2{
 .modal-box td{
 	padding: 10px;
 	border-bottom: 1px solid #ddd;
+}
+
+
+/*CART - Корзина*/ 
+
+.title-cart{
+	margin: 40px 20px ;
+	font-family: Politica, sans-serif;
+	font-weight: bold;
+	font-size: 2em;
+}
+.wrap-cart{
+	display: flex;
+	justify-content: space-around;
+	padding: 0 30px;
+}
+.wrap-cart h3{
+	font-family: Politica;
+	font-weight: bold;
+	font-size: 1.4em;
+	margin: 10px 0 20px 0;
+}
+.info{
+	width: 40%;
+	border-top: 2px solid #178AE5;
+
+}
+.order-contents{
+	width: 60%;
+	border-top: 2px solid #178AE5;
+}
+.info li{
+	list-style-type: none;
+	margin-bottom: 20px;
+}
+.info input{
+	padding: 5px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+form{
+	margin-top: 30px;
+}
+label{
+	font-size: 1.1em;
+	display: block;
+}
+label span{
+	color: red;
+}
+.info-country, 
+.phone-info, 
+.town, 
+.info-name{
+	width: 90%;
+	border: 1px solid #ccc;
+	padding: 5px;
+	border-radius: 5px;
+}
+.cart-payment, 
+.cart-delivery{
+	margin: 20px 0;
+}
+.radio + label {
+  cursor: pointer;
+}
+.radio:not(checked) {
+  position: absolute;
+  opacity: 0;
+}
+.radio:not(checked) + label {
+  position: relative;
+  padding: 0 0 0 35px;
+}
+.radio:not(checked) + label:before {
+  content: '';
+  position: absolute;
+  top: 4px;
+  left: 1px;
+  width: 22px;
+  height: 22px;
+  border: 1px solid #CDD1DA;
+  border-radius: 50%;
+  background: #FFF;
+}
+.radio:not(checked) + label:after {
+  content: '';
+  position: absolute;
+  top: 7px;
+  left: 4px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #178AE5;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.5);
+  opacity: 0;
+  transition: all .2s;
+}
+.radio:checked + label:after {
+  opacity: 1;
+}
+.text-area{
+	display: block;
+	padding: 10px;
+	margin: 5px 0 10px 0;
+	resize: none;
+}
+.text-area::-webkit-input-placeholder { color: #aaa; }
+.text-area::-moz-placeholder          { color: #aaa; } /* Firefox 19+ */
+.text-area:-moz-placeholder           { color: #aaa; } /* Firefox 18- */
+.text-area:-ms-input-placeholder 	  { color: #aaa; }
+
+.info .cart-submit{
+	background: #178AE5;
+	color: #fff;
+	font-size: 2em;
+	font-family: Politica;
+	padding: 10px 50px;
+	float: right;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	border: 2px solid #178AE5;
+	margin: 60px 0 20px 0;
+	transition: .3s;
+	box-shadow: 3px 3px 8px rgba(0,0,0,0.5);
+}
+.info .cart-submit:hover{
+	background: #fff;
+	color: #178AE5;
+	font-weight: bold;
+	box-shadow: 7px 7px 8px rgba(0,0,0,0.5);
+}
+.info-number{
+	width: 300px;
+	float: left;
+	margin-top: 0;
+}
+.cart-product-info{
+	text-align: left;
+}
+.order-contents table{
+	width: 100%;
+	background: #F5F5F5;
+	margin-top: 30px;
+	padding: 10px;
+	border: 1px solid #ddd;
+}
+.order-contents table th{
+	text-transform: uppercase;
+	font-weight: normal;
+	font-size: 0.8em;
+	padding: 5px 5px 0px 5px;
+}
+.order-contents  th,
+.order-contents  td{
+	padding: 10px;
+}
+.order-contents table tr{
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	text-align: center;
+}
+.cart-product-info img{
+	width: 90px;
+	margin-right: 10px;
+	float: left;
+}
+.cart-product-info .cart-product-company{
+	text-transform: uppercase;
+}
+.cart-product-info .cart-product-title{
+	color: #000;
+	display: block;
+}
+.cart-product-code{
+	font-size: 0.9em;
+	font-weight: bold;
+	font-family: Verdana;
+}
+.order-contents .cart-quantity{
+	font-size: 1.5em;
+}
+.order-contents .cart-quantity span{
+	font-size: 0.7em;
+	cursor: pointer;
+	color: #178AE5;
+}
+.font-politica{
+	font-family: Politica;
+	font-size: 2em;
+}
+.total h4{
+	font-family: Politica;
+	font-weight: bold;
+	font-size: 2em;
+	float: right;
+	margin-top: 30px;
+	border: 1px solid #ddd;
+	padding: 10px 30px;
+	box-shadow: 10px 10px 8px rgba(0,0,0,0.5);
+}
+.total h4 span{
+	padding: 0 10px 0 20px;
+	font-size: 1.5em;
 }

@@ -37,9 +37,10 @@
 						<div class="input-wrapper search" data-text="">
 							<input type="text" placeholder="Поиск  по сайту…">          
 						</div>
-						<div class="cart">
+						<a href="cart.php" class="cart">
 							<i class="fa fa-shopping-cart " aria-hidden="true"></i>
-						</div>
+							<span>0</span>
+						</a>
 					</div>
 				</div>
 			</div>
