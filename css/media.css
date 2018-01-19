@@ -226,6 +226,22 @@
 		top: -20px;
 		right: -7px; 
 	}
+	.wrap-cart{
+		padding: 0 5px;
+	}
+	.title-cart{
+		margin: 20px;
+	}
+	.text-area{
+		width: 250px;
+	}
+	.info .cart-submit{
+		float: none;
+		margin: 20px 0;
+	}
+	.order-contents th, .order-contents td{
+		padding: 3px;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -426,6 +442,29 @@
 		max-width: 95%;
 		font-size: 1em;
 	}
+	.wrap-cart{
+		display: block;
+	}
+	.info{
+		width: 100%;
+		padding: 0 100px;
+	}
+	.text-area{
+		width: 350px;
+	}
+	.order-contents{
+		border-top: none;
+	}
+	.product-number p{
+		padding: 0 10px;
+	}
+	.order-contents{
+		width: 100%;
+	}
+	.wrap-cart h3{
+		margin: 0;
+		padding-left: 50px;
+	}
 }
 
 @media only screen and (max-width : 576px) {
@@ -591,7 +630,20 @@
 		top: -15px;
 		right: -5px;
 	}
-
+	.info{
+		padding: 0 30px;
+	}
+	.info form{
+		margin-top: 0;
+	}
+	.cart-product-info img{
+		width: 60px;
+		margin-right: 0;
+	}
+	.font-politica{
+		font-size: 1.7em;
+		font-weight: none;
+	}
 }
 
 @media only screen and (max-width : 400px) {
@@ -708,5 +760,41 @@
 		width: 100%;
 		padding: 5px 1px;
 		border: none;
+	}
+	.info{
+		padding: 0 20px;
+	}
+	.text-area{
+		width: 250px;
+	}
+	.info .cart-submit{
+		font-size: 1.5em;
+		padding: 10px 40px;
+	}
+	.info li{
+		margin-bottom: 5px;
+	}
+	.wrap-cart h3{
+		padding: 0;
+		margin: 10px 0;
+	}
+	.cart-product-info .cart-product-title{
+		font-size: 0.7em;
+	}
+	.order-contents table th{
+		font-size: 0.7em;
+		text-transform: none;
+		padding: 0;
+	}
+	.wrap-cart{
+		padding: 0;
+	}
+	.total h4{
+		width: 100%;
+		margin: 10px 0 50px 0;
+		font-size: 1.8em;
+		padding: 5px 20px;
+		border: none;
+		box-shadow: 0px 10px 15px rgba(0,0,0,0.5);
 	}
 }

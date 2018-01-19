@@ -55,7 +55,7 @@
 				<label for="delivery-intaim-radio"> Интайм </label>
 			</div>
 			<p>Комментарий к заказу:</p>
-			<textarea name="text-area" class="text-area" cols="50" rows="8" placeholder="Здесь вы можете написать комментарий или уточнение по поводу заказа..."></textarea>
+			<textarea name="text-area" class="text-area" placeholder="Здесь вы можете написать комментарий или уточнение по поводу заказа..."></textarea>
 			<div class="product-number info-number">
 				<p>После оформления заказа с вами обязательно свяжется менеджер для уточнения подробностей и только после этого заказ будет сформирован !</p>
 			</div>

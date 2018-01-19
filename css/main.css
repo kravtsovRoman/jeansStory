@@ -1739,6 +1739,8 @@ label span{
   opacity: 1;
 }
 .text-area{
+	width: 400px;
+	height: 200px;
 	display: block;
 	padding: 10px;
 	margin: 5px 0 10px 0;
