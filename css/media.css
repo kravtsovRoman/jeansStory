@@ -95,8 +95,8 @@
 		padding: 5px;
 	}
 	.menu-left a, header .phone{
-		font-size: 14px;
 		padding: 25px 4px;
+		font-size: 14px;
 	}
 	.logo img{
 		width: 140px;
@@ -105,8 +105,8 @@
 	}
 	.search{
 		width: 115px;
-		padding-top: 17px;
 		margin: 0 15px;
+		padding-top: 17px;
 	}
 	.search input{
 		border-bottom: none;
@@ -150,9 +150,9 @@
 	.product-buy{
 		width: 170px;
 		margin-top: 0px;
-		font-size: 0.9em;
 		margin-top: 10px;
 		padding: 5px;
+		font-size: 0.9em;
 	}
 	.price-edit p{
 		margin-right: -10px;
@@ -180,9 +180,8 @@
 		margin-bottom: -19px;
 	}
 	.title-img h2{
-		font-size: 4.5em;
 		padding-top: 50px;
-
+		font-size: 4.5em;
 	}
 	.title-img{
 		height: 225px;
@@ -194,12 +193,12 @@
 	.advantages-box{
 		width: 150px;
 		height: 150px;
-		font-size: 4.5em;
 		margin: 0 30px;
+		font-size: 4.5em;
 	}
 	.advantages-text .main-text{
-		font-size: 1.1em;
 		padding: 10px 0;
+		font-size: 1.1em;
 	}
 	.payments .wrap div{
 		margin: 20px 0 50px 0;
@@ -218,13 +217,13 @@
 		top: 1%;
 	}
 	.modal-box h3{
-		padding: 5px 0;
 		margin: 10px auto;
+		padding: 5px 0;
 	}
 	.modal-box .close{
-		z-index: 999;
 		top: -20px;
-		right: -7px; 
+		right: -7px;
+		z-index: 999; 
 	}
 	.wrap-cart{
 		padding: 0 5px;
@@ -236,8 +235,8 @@
 		width: 250px;
 	}
 	.info .cart-submit{
-		float: none;
 		margin: 20px 0;
+		float: none;
 	}
 	.order-contents th, .order-contents td{
 		padding: 3px;
@@ -263,8 +262,8 @@
 	}
 	aside{
 		width: 20%;
-		font-size: 	0.6em;
 		display: block;
+		font-size: 	0.6em;
 	}
 	.content{
 		width: 75%;
@@ -316,9 +315,9 @@
 		margin-top: 20px;
 	}
 	.footer-time {
+		margin-bottom: 20px;
 	    padding-top: 10px;
 	    font-size: 1.1em;
-	    margin-bottom: 20px;
 	}
 	#breadcrumb {
 	  margin-top: -5px;
@@ -329,9 +328,9 @@
 	}
 	.slider-product-nav {
 	    max-width: 410px;
+	    position: absolute;
 	    bottom: -160px;
 	    left: 22%;
-	    position: absolute;
 	}
 	.slider-product{
 		margin: 0 auto;
@@ -340,14 +339,14 @@
 		width: 75%;
 	}
 	.wrap{
-		display: inline-block;
 		margin: 0 auto;
+		display: inline-block;
 		text-align: center;
 	}
 	.product-price{
 		width: 30%;
-		display: inline-block;
 		margin: 0 auto;
+		display: inline-block;
 	}
 	.table-filters{
 		margin: 0 auto;
@@ -362,10 +361,10 @@
 		display: inline-block;
 	}
 	.product-buy{
-		margin-top: 15px;
-		font-size: 1.5em;
 		width: 200px;
+		margin-top: 15px;
 		padding: 10px 10px;
+		font-size: 1.5em;
 	}
 	.product-number{
 		margin-top: 10px;
@@ -399,9 +398,8 @@
 		margin-bottom: -18px;
 	}
 	.title-img h2{
-		font-size: 2.5em;
 		padding-top: 50px;
-
+		font-size: 2.5em;
 	}
 	.title-img{
 		height: 150px;
@@ -420,9 +418,9 @@
 		padding: 30px 50px;
 	}
 	.payments-box-title{
-		font-size: 1.5em;
 		margin-bottom: 15px;
 		padding-top: 35px;
+		font-size: 1.5em;
 	}
 	.delivery h4{
 		margin-top: 20px;
@@ -465,6 +463,13 @@
 		margin: 0;
 		padding-left: 50px;
 	}
+	.footer-contact li{
+		text-align: center;
+	}
+	.header-mobile .cart{
+		margin-top: 5px;
+		margin-right: 30px;
+	}
 }
 
 @media only screen and (max-width : 576px) {
@@ -486,12 +491,12 @@
 		margin: 5px;
 	}
 	aside{
-		padding-right: 20px;
-		display: none;
-		position: absolute;
 		width: 98%;
+		padding-right: 20px;
+		position: absolute;
 		left: 5px;
 		top: 40px;
+		display: none;
 		z-index: 99;
 	}
 	.filter-button, .stock2{
@@ -510,12 +515,12 @@
 		margin-bottom: 0;
 	}
 	.category-list{
-		float: left;
 		border-bottom: none;
+		float: left;
 	}
 	.filters{
-		float: right;
 		width: 50%;
+		float: right;
 	}
 	.category-name{
 		margin-top: 10px;
@@ -524,8 +529,8 @@
 		margin-right: 21px;
 	}
 	.category-list {
+		margin-bottom: 0px;
 	    padding-top: 0px;
-	    margin-bottom: 0px;
 	}
 	.content {
 	    width: 100%;
@@ -651,11 +656,18 @@
 		width: 50px;
 	}
 	.header-mobile .phone {
-		font-size: 32px;
+		font-size: 28px;
 	}
 	.logo-mobile img {
 		width: 40px;
 		padding: 3px 0;
+	}
+	.burger{
+		padding: 20px 10px 10px 0;
+	}
+	.burger .fa-bars{
+		margin-bottom: 	10px;
+		float: right;
 	}
 	.navigation ul {
 	    width: 70%;
@@ -708,9 +720,9 @@
 	}
 	.ruler-content article{
 		width: 100%;
-		font-size: 0.7em;
 		border: none;
 		border-top: 2px solid #178AE5;
+		font-size: 0.7em;
 	}
 	.ruler-content article table td, 
 	.ruler-content article table th{
@@ -724,7 +736,6 @@
 	}
 	.title-img h2{
 		font-size: 1.9em;
-
 	}
 	.title-img{
 		height: 130px;
@@ -768,23 +779,23 @@
 		width: 250px;
 	}
 	.info .cart-submit{
-		font-size: 1.5em;
 		padding: 10px 40px;
+		font-size: 1.5em;
 	}
 	.info li{
 		margin-bottom: 5px;
 	}
 	.wrap-cart h3{
-		padding: 0;
 		margin: 10px 0;
+		padding: 0;
 	}
 	.cart-product-info .cart-product-title{
 		font-size: 0.7em;
 	}
 	.order-contents table th{
+		padding: 0;
 		font-size: 0.7em;
 		text-transform: none;
-		padding: 0;
 	}
 	.wrap-cart{
 		padding: 0;
@@ -792,9 +803,18 @@
 	.total h4{
 		width: 100%;
 		margin: 10px 0 50px 0;
-		font-size: 1.8em;
 		padding: 5px 20px;
 		border: none;
+		font-size: 1.8em;
 		box-shadow: 0px 10px 15px rgba(0,0,0,0.5);
+	}
+	.header-mobile .cart{
+		margin: 0;
+	}
+	.footer-number{
+		margin: 30px 0 0 0;
+	}
+	.footer-contact{
+		margin: 0;
 	}
 }
