@@ -56,11 +56,11 @@
 				</div>
 			</div>
 			<div class="menu-left-mobile">
-				<a href="#">Каталог</a>
-				<a href="#">Доставка и Оплата</a>
-				<a href="#">FAQ</a>
+				<a href="catalog.php">Каталог</a>
+				<a href="delivery.php">Доставка и Оплата</a>
+				<a href="faq.php">FAQ</a>
 				<a href="#">Новости</a>
-				<a href="#">Контакты</a>
+				<a href="contacts.php">Контакты</a>
 			</div>
 		</div>
 	</header>
