@@ -80,13 +80,14 @@
 	<div class="contacts-wrap">
 		<div class="phones">
 			<h3>Контактные телеофны</h3>
-			<p class="icon kievstar"> 097 654 24 67</p>
-			<p class="icon life"> 063 528 24 98</p>
-			<p class="icon mtc"> 066 845 78 24</p>
+            <p class="icon mtc"> 099 378 33 31</p>
+			<p class="icon kievstar"> 096 002 65 69</p>
+			<!-- <p class="icon life"> 063 528 24 98</p> -->
+			
 		</div>
 		<div class="schedule">
 			<h3>График работы</h3>
-			<p class="icon time-work">7.00 - 23.00</p>
+			<p class="icon time-work">7.00 - 16.00</p>
 			<p>Выходной: пятница</p>
 			<div class="map">
 				<i class="fa fa-map-marker" aria-hidden="true"></i>

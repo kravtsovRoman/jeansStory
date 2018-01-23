@@ -31,24 +31,15 @@ header{
 	z-index: 999;
 }
 .header-desktop{
-	display: -webkit-flex;
-	display: -webkit-box;
-	display: -moz-flex;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: -ms-flex;
-	display: -o-flex;
 	display: flex;
-	justify-content: -webkit-center;
-	justify-content: -moz-center;
-	justify-content: -ms-center;
-	justify-content: -o-center;
 	justify-content: center;
 }
 .header-mobile{
 	display: none;
 }
-.menu-left a, header .phone, .menu-left-mobile a{
+.menu-left a,
+ header .phone, 
+ .menu-left-mobile a{
 	margin: auto;
 	padding: 35px 5px;
 	float: left;
@@ -76,6 +67,12 @@ header a:hover{
 	text-decoration: none;
 	color: #178AE5;
 }
+.menu-left{
+	width: 35%;
+}
+.menu-right{
+	width: 35%;
+}
 .logo img{
 	width: 200px;
 	padding: 35px 10px 10px 10px;
@@ -89,6 +86,24 @@ header .phone{
 	padding: 30px 30px 30px 0; 
 	font-size: 32px;
 	z-index: 999;
+}
+.numbers{
+	position: relative;
+}
+.numbers:hover .number-list{
+	display: block;
+}
+.number-list{
+	display: none;
+	position: absolute;
+	bottom: -100px;
+	left: 0;
+	transition: .5s;
+}
+.number-list a{
+	color: #fff;
+	font-family: Politica;
+	font-size: 1.7em;
 }
 .search {
 	width: 175px;
@@ -227,6 +242,7 @@ header .phone{
 }
 .wrapper .category{
 	width: 45%;
+	max-width: 650px;
 	margin: 25px ;
 	border-left: 1px solid #eee;
 	border-top: 1px solid #eee;
@@ -243,8 +259,7 @@ header .phone{
 	box-shadow: 5px 5px 10px #aaa;
 }
 .wrapper .category:hover .category-description h3,
-.wrapper .category:hover .category-description p,
-.wrapper .category:hover .category-time{
+.wrapper .category:hover .category-description p{
 	margin-left: 5px;
 }
 .category a{
@@ -313,31 +328,15 @@ header .phone{
 	-o-transition: 1s all; 
 	transition: 1s all;
 }
-.category .category-time{
+.category  .quantity{
 	width: 20%;
-	padding: 60px 0 0 0;
-	position: relative;
-	text-align: center;
-	color: #555;
-	-webkit-transition: .5s all;	
-	-moz-transition: .5s all;
-	-ms-transition: .5s all;	
-	-o-transition: .5s all; 
-	transition: .5s all;
-}
-.category .category-time .quantity{
-	padding: 0 20px 7px 20px;
-	position: absolute;
-	top: -50px;
-	left: 20px;
+	margin: 30px 20px 20px 20px;
 	background: #fff;
-	border: 1px solid #eee;
 	font-family: Verdana;
-	-webkit-box-shadow: 3px 3px 10px #000; 
-	-moz-box-shadow: 3px 3px 10px #000;
-	box-shadow: 3px 3px 10px #000;
+	color: #555;
+	text-align: center;
 }
-.category .category-time .quantity p{
+.category .quantity p{
 	font-size: 2.5em;
 }
 .sale-new{
@@ -359,7 +358,8 @@ header .phone{
 	justify-content: center;
 }
 .box{
-	width: 44%;
+	width: 45%;
+	max-width: 630px;
 	height: 160px;
 	margin: 20px;
 	overflow: hidden;
@@ -383,7 +383,7 @@ header .phone{
 }
 
 .all-catalog, .yet-tovar{
-	width: 93%;
+	width: 35%;
 	margin: 10px;
 	border: 2px solid #178AE5;
 	border-radius: 3px;
@@ -596,6 +596,7 @@ aside{
 	width: 100%;
 	margin-bottom: 15px;
 	cursor: pointer;
+	font-size: 1.5em;
 }
 .filter-header .fa{
 	float: right;
@@ -610,6 +611,7 @@ aside{
 }
 .checkbox + label {
 	cursor: pointer;
+	font-size: 1.4em;
 }
 .checkbox:not(checked) {
 	position: absolute;
@@ -621,10 +623,10 @@ aside{
 }
 .checkbox:not(checked) + label:before {
 	content: '';
-	width: 40px;
-	height: 16px;
+	width: 33px;
+	height: 12px;
 	position: absolute;
-	top: 4px;
+	top: 8px;
 	left: 0;
 	border-radius: 7px;
 	background: #CDD1DA;
@@ -634,10 +636,10 @@ aside{
 }
 .checkbox:not(checked) + label:after {
 	content: '';
-	width: 12px;
-	height: 12px;
+	width: 8px;
+	height: 8px;
 	position: absolute;
-	top: 6px;
+	top: 10px;
 	left: 2px;
 	border-radius: 10px;
 	background: #FFF;
@@ -654,7 +656,7 @@ aside{
 	background: #178AE5;
 }
 .checkbox:checked + label:after {
-	left: 26px;
+	left: 23px;
 }
 /* хлебные крошки */
 #breadcrumb {
@@ -747,6 +749,7 @@ aside{
 }
 .wrapper .item-tovar{
 	width: 18%;
+	max-width: 230px;
 	margin: 10px ;
 	border-top: 1px solid #eee;
 	-webkit-box-shadow: 2px 2px 3px #aaa; 
@@ -814,6 +817,7 @@ aside{
 .navigation ul{
 	width: 30%;
 	margin: 30px auto 80px auto;
+	text-align: center;
 }
 .navigation li, .navigation span{
 	padding: 0 10px;
@@ -966,7 +970,11 @@ aside{
 	margin-top: 0;
 }
 .product-barcode {
-	font-size: 1.3em;
+	font-size: 0.9em;
+	font-weight: bold;
+}
+.product-barcode span{
+	font-size: 1.5em;
 	font-weight: bold;
 }
 .product-price p{
@@ -1039,12 +1047,19 @@ aside{
 	vertical-align: middle;
 }
 .product-quantity{
+	position: relative;
 	padding: 5px 10px;
 	border: 1px solid #178AE5;
 	color: #178AE5;
 	font-size: 1.5em;
 	vertical-align: middle;
 	text-align: center;
+}
+.product-quantity .product-quantity-text{
+	position: absolute;
+	bottom: -10px;
+	right: -25px;
+	font-size: 0.4em;
 }
 .price-edit .fa-usd{
 	font-size: 0.5em;
@@ -1714,7 +1729,7 @@ input[id="tab-2"]:checked ~ .ruler-content .tab-2{
 .return{
 	height: 700px;
 	margin-bottom: -50px;
-	background-image: url(../img/bg3-delivery.jpg);
+	background: url(../img/bg3-delivery.jpg) no-repeat center;
 	color: #fff;
 	text-align: center;
 }

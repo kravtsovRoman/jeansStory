@@ -9,13 +9,9 @@
 						<h3>Мужские джинсы</h3>
 						<p>Описание этой категории. Описание этой категории. Описание этой категории. </p>
 					</div>
-					<div class="category-time">
-						<i class="fa fa-clock-o" aria-hidden="true"></i>
-						<p>4 дня назад</p>
-						<div class="quantity">
-							<p>158</p>
+					<div class="quantity">
+						<p>158</p>
 							<span>моделей</span>
-						</div>
 					</div>
 				</a>
 			</section>
@@ -26,13 +22,9 @@
 						<h3>Женские джинсы</h3>
 						<p>Описание этой категории. Описание этой категории. Описание этой категории. </p>
 					</div>
-					<div class="category-time">
-						<i class="fa fa-clock-o" aria-hidden="true"></i>
-						<p>4 дня назад</p>
-						<div class="quantity">
-							<p>158</p>
+					<div class="quantity">
+						<p>158</p>
 							<span>моделей</span>
-						</div>
 					</div>
 				</a>
 			</section>
@@ -43,13 +35,9 @@
 						<h3>Свитера</h3>
 						<p>Описание этой категории. Описание этой категории. Описание этой категории. </p>
 					</div>
-					<div class="category-time">
-						<i class="fa fa-clock-o" aria-hidden="true"></i>
-						<p>4 дня назад</p>
-						<div class="quantity">
-							<p>158</p>
+					<<div class="quantity">
+						<p>158</p>
 							<span>моделей</span>
-						</div>
 					</div>
 				</a>
 			</section>
@@ -60,13 +48,9 @@
 						<h3>Футболки</h3>
 						<p>Описание этой категории. Описание этой категории. Описание этой категории. </p>
 					</div>
-					<div class="category-time">
-						<i class="fa fa-clock-o" aria-hidden="true"></i>
-						<p>4 дня назад</p>
-						<div class="quantity">
-							<p>158</p>
+					<div class="quantity">
+						<p>158</p>
 							<span>моделей</span>
-						</div>
 					</div>
 				</a>
 			</section>
@@ -77,13 +61,9 @@
 						<h3>Батники</h3>
 						<p>Описание этой категории. Описание этой категории. Описание этой категории. </p>
 					</div>
-					<div class="category-time">
-						<i class="fa fa-clock-o" aria-hidden="true"></i>
-						<p>4 дня назад</p>
-						<div class="quantity">
-							<p>158</p>
+					<div class="quantity">
+						<p>158</p>
 							<span>моделей</span>
-						</div>
 					</div>
 				</a>
 			</section>
@@ -94,13 +74,9 @@
 						<h3>Куртки</h3>
 						<p>Описание этой категории. Описание этой категории. Описание этой категории. </p>
 					</div>
-					<div class="category-time">
-						<i class="fa fa-clock-o" aria-hidden="true"></i>
-						<p>4 дня назад</p>
-						<div class="quantity">
-							<p>158</p>
+					<div class="quantity">
+						<p>158</p>
 							<span>моделей</span>
-						</div>
 					</div>
 				</a>
 			</section>
@@ -111,13 +87,9 @@
 						<h3>Комбинизоны</h3>
 						<p>Описание этой категории. Описание этой категории. Описание этой категории. </p>
 					</div>
-					<div class="category-time">
-						<i class="fa fa-clock-o" aria-hidden="true"></i>
-						<p>4 дня назад</p>
-						<div class="quantity">
-							<p>158</p>
+					<div class="quantity">
+						<p>158</p>
 							<span>моделей</span>
-						</div>
 					</div>
 				</a>
 			</section>
@@ -128,13 +100,9 @@
 						<h3>Жилетки</h3>
 						<p>Описание этой категории. Описание этой категории. Описание этой категории. </p>
 					</div>
-					<div class="category-time">
-						<i class="fa fa-clock-o" aria-hidden="true"></i>
-						<p>4 дня назад</p>
-						<div class="quantity">
-							<p>158</p>
+					<div class="quantity">
+						<p>158</p>
 							<span>моделей</span>
-						</div>
 					</div>
 				</a>
 			</section>
@@ -145,13 +113,9 @@
 						<h3>Шорты</h3>
 						<p>Описание этой категории. Описание этой категории. Описание этой категории. </p>
 					</div>
-					<div class="category-time">
-						<i class="fa fa-clock-o" aria-hidden="true"></i>
-						<p>4 дня назад</p>
-						<div class="quantity">
-							<p>158</p>
+					<div class="quantity">
+						<p>158</p>
 							<span>моделей</span>
-						</div>
 					</div>
 				</a>
 			</section>
@@ -162,13 +126,9 @@
 						<h3>Ремни</h3>
 						<p>Описание этой категории. Описание этой категории. Описание этой категории. </p>
 					</div>
-					<div class="category-time">
-						<i class="fa fa-clock-o" aria-hidden="true"></i>
-						<p>4 дня назад</p>
-						<div class="quantity">
-							<p>158</p>
+					<div class="quantity">
+						<p>158</p>
 							<span>моделей</span>
-						</div>
 					</div>
 				</a>
 			</section>

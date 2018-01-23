@@ -92,7 +92,7 @@
 					<span>
 						<i class="fa fa-minus-circle" aria-hidden="true"></i>
 					</span>
-					<p>7</p>
+					<p>7 шт.</p>
 					<span>
 						<i class="fa fa-plus-circle" aria-hidden="true"></i>
 					</span>
@@ -118,7 +118,7 @@
 					<span>
 						<i class="fa fa-minus-circle" aria-hidden="true"></i>
 					</span>
-					<p>6</p>
+					<p>6 шт.</p>
 					<span>
 						<i class="fa fa-plus-circle" aria-hidden="true"></i>
 					</span>
@@ -144,7 +144,7 @@
 					<span>
 						<i class="fa fa-minus-circle" aria-hidden="true"></i>
 					</span>
-					<p>6</p>
+					<p>6 шт.</p>
 					<span>
 						<i class="fa fa-plus-circle" aria-hidden="true"></i>
 					</span>
@@ -170,7 +170,7 @@
 					<span>
 						<i class="fa fa-minus-circle" aria-hidden="true"></i>
 					</span>
-					<p>6</p>
+					<p>6 шт.</p>
 					<span>
 						<i class="fa fa-plus-circle" aria-hidden="true"></i>
 					</span>
@@ -196,7 +196,7 @@
 					<span>
 						<i class="fa fa-minus-circle" aria-hidden="true"></i>
 					</span>
-					<p>10</p>
+					<p>10 шт.</p>
 					<span>
 						<i class="fa fa-plus-circle" aria-hidden="true"></i>
 					</span>
@@ -222,7 +222,7 @@
 					<span>
 						<i class="fa fa-minus-circle" aria-hidden="true"></i>
 					</span>
-					<p>6</p>
+					<p>6 шт.</p>
 					<span>
 						<i class="fa fa-plus-circle" aria-hidden="true"></i>
 					</span>

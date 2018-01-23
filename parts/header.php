@@ -28,7 +28,14 @@
 				</a>
 			</div>
 			<div class="menu-right">
-				<a href="tel:08004567890" class="phone "> 0 800 456 78 90 </a>
+				<div class="numbers">
+					<a href="tel:0993783331" class="phone ">
+						099 378 33 31
+					</a>
+					<div class="number-list">
+						<a href="tel:0960026569">096 002 65 69</a>
+					</div>
+				</div>
 				<div class="input-wrapper search" data-text="">
 					<input type="text" placeholder="Поиск  по сайту…">          
 				</div>
@@ -43,7 +50,9 @@
 				<a href="index.php" class="logo-mobile">
 					<img src="img/1_whitemini_logo.png" alt="">
 				</a>
-				<a href="tel:08004567890" class="phone"> 0 800 456 78 90 </a>
+				<a href="tel:0993783331" class="phone ">
+						099 378 33 31
+					</a>
 				<a href="cart.php" class="cart">
 					<i class="fa fa-shopping-cart " aria-hidden="true"></i>
 					<span>0</span>

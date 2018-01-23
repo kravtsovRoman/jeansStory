@@ -43,7 +43,7 @@ include('parts/header.php');
 				<h2> 6102 CARACAJ СИНИЕ (25-30, 6 ЕД.) ДЖИНСЫ ЖЕНСКИЕ УЗКИЕ ТЕРКА ДЕМИСЕЗОННЫЕ СТРЕЙЧ 
 				</h2> 
 				<div class="product-barcode">
-					#<span> 547601 </span>
+					код товара: <span> 547601 </span>
 				</div>
 			</div>
 			<div class="product-price">
@@ -97,10 +97,14 @@ include('parts/header.php');
 			<div class="product-data">
 				<div class="price-edit">
 					<p> 
-						<span class="product-price-edit"> 12.00 </span>
+						<span class="product-price-edit"> 12.00 $</span>
 						x 
 						<i class="fa fa-angle-double-left" aria-hidden="true"></i>
-						<span class="product-quantity"> 6 </span>
+						<span class="product-quantity">
+							6
+							<span class="product-quantity-text">шт.</span>
+						</span>
+
 						<a href="#">
 							<i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
 						= 

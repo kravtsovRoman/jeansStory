@@ -279,8 +279,10 @@
   		padding: 0 0 0 40px;
 	}
 	.checkbox:not(checked) + label:before {
-	  width: 25px;
+	  width: 23px;
 	  height: 10px;
+	  top: 4px;
+
 	}
 	.checkbox:not(checked) + label:after {
 	  width: 7px;
@@ -288,7 +290,7 @@
 	  top: 5px;
 	}
 	.checkbox:checked + label:after {
-  		left: 17px;
+  		left: 14px;
 	}
 	.yet-tovar {
 	    margin: 15px auto 8px auto;
