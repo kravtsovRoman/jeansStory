@@ -53,7 +53,7 @@
 	<script src="libs/slick/js/slick.min.js"></script><!-- Slick -->
 	<script src="js/common.js"></script><!-- My JS file -->
 	
-	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+	<!-- <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script> -->
 	<!-- LiveReload -->
 </body>
 </html>
